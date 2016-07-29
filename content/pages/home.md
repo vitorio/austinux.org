@@ -10,7 +10,8 @@ changelog:
 - item: On hiatus <time datetime="2015-09-27" pubdate>September 27,&nbsp;2015</time>
 - item: Migrated the site to static generation with <a href="https://grow.io">Grow</a> <time datetime="2016-07-28" pubdate>July 28,&nbsp;2016</time>
 - item: Updated with thanks to <a href="http://ellenlazaretti.com">Ellen Lazaretti</a> <time datetime="2016-07-28" pubdate>July 28,&nbsp;2016</time>
-- item: Need to reach me for some reason? <span id="contactemail"></span>
+- item: Made public on <a href="https://github.com/vitorio/austinux.org">GitHub</a> <time datetime="2016-07-28" pubdate>July 28,&nbsp;2016</time>
+- item: Want to suggest a new site or resource? Need to reach me? <a href="https://github.com/vitorio/austinux.org/issues/new">Add a new issue with the details</a>
 ---
 <header>
 <hgroup>

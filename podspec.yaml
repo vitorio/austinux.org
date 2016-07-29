@@ -1,6 +1,6 @@
 grow_version: ">=0.0.60"
 project: austinux
-home: /content/oldhtml/index.html
+home: /content/pages/home.md
 
 localization:
   default_locale: en
