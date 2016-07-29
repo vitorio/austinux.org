@@ -1,0 +1,322 @@
+---
+$path: /2010/index.html
+---
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="iso-8859-1">
+<link rel="canonical" href="http://austinux.org/2010/">
+<title>User experience, interaction design and other design-related activities in Austin, TX from 2010</title>
+<!--[if lt IE 9]>
+<script>
+// html5shiv MIT @rem remysharp.com/html5-enabling-script
+// iepp v1.5.1 MIT @jon_neal iecss.com/print-protector
+/*@cc_on@if(@_jscript_version<9)(function(p,e){function q(a,b){if(g[a])g[a].styleSheet.cssText+=b;else{var c=r[l],d=e[j]("style");d.media=a;c.insertBefore(d,c[l]);g[a]=d;q(a,b)}}function s(a,b){for(var c=new RegExp("\\b("+m+")\\b(?!.*[;}])","gi"),d=function(k){return".iepp_"+k},h=-1;++h<a.length;){b=a[h].media||b;s(a[h].imports,b);q(b,a[h].cssText.replace(c,d))}}function t(){for(var a,b=e.getElementsByTagName("*"),c,d,h=new RegExp("^"+m+"$","i"),k=-1;++k<b.length;)if((a=b[k])&&(d=a.nodeName.match(h))){c=new RegExp("^\\s*<"+d+"(.*)\\/"+
+d+">\\s*$","i");i.innerHTML=a.outerHTML.replace(/\r|\n/g," ").replace(c,a.currentStyle.display=="block"?"<div$1/div>":"<span$1/span>");c=i.childNodes[0];c.className+=" iepp_"+d;c=f[f.length]=[a,c];a.parentNode.replaceChild(c[1],c[0])}s(e.styleSheets,"all")}function u(){for(var a=-1,b;++a<f.length;)f[a][1].parentNode.replaceChild(f[a][0],f[a][1]);for(b in g)r[l].removeChild(g[b]);g={};f=[]}for(var m="abbr article aside audio canvas command datalist details figure figcaption footer header hgroup mark meter nav output progress section summary time video".replace(/ /g,
+"|"),n=m.split("|"),r=e.documentElement,i=e.createDocumentFragment(),g={},f=[],o=-1,l="firstChild",j="createElement";++o<n.length;){e[j](n[o]);i[j](n[o])}i=i.appendChild(e[j]("div"));p.attachEvent("onbeforeprint",t);p.attachEvent("onafterprint",u)})(this,document)@end@*/
+</script>
+<![endif]-->
+<style>
+/*
+Copyright (c) 2010, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.com/yui/license.html
+version: 3.1.0
+build: 2026
+*/
+html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}input,textarea,select{*font-size:100%;}legend{color:#000;}
+/*h1{font-size:138.5%;}h2{font-size:123.1%;}h3{font-size:108%;}h1,h2,h3{margin:1em 0;}*/h1,h2,h3,h4,h5,h6,strong{font-weight:bold;}abbr,acronym{border-bottom:1px dotted #000;cursor:help;}em{font-style:italic;}/*blockquote,ul,ol,dl{margin:1em;}ol,ul,dl{margin-left:2em;}*/ol li{list-style:decimal outside;}ul li{list-style:disc outside;}dl dd{margin-left:1em;}th,td{border:1px solid #000;padding:.5em;}th{font-weight:bold;text-align:center;}caption{margin-bottom:.5em;text-align:center;}/*p,fieldset,table,pre{margin-bottom:1em;}*/input[type=text],input[type=password],textarea{width:12.25em;*width:11.9em;}
+
+article, aside, figure, figcaption, footer, header, hgroup, nav, section { display: block; margin: 0; padding: 0; } /* html5 */
+
+/* font stacks: http://www.codestyle.org/css/font-family/BuildBetterCSSFontStacks.shtml */
+body {
+	font-size: 100%; /* 16px */
+	font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, sans-serif;
+	line-height: 1.5em; /* 24px */
+	/* background-image: url('bg.png'); */
+}
+h1, h2, h3, h4 { font-family: Constantia, "Lucida Bright", LucidaBright, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif; }
+
+h1 { font-size: 2.25em; line-height: 1.33; margin-top: 0.63em; } /* 36px/48px */
+h2 { font-size: 1.5em; line-height: 1.0; margin-top: 1.0em; } /* 24px/24px */
+h3 { font-size: 1.25em; line-height: 1.2; margin-top: 1.2em; } /* 20px/24px */
+h4 { font-size: 0.875em; line-height: 1.714; margin-top: 1.714em; } /* 14px/24px */
+/* element { font-size: 1.125em; line-height: 1.33; margin-top: 1.33em; } *//* 18px/24px */
+/* element { font-size: 0.8125em; line-height: 1.846; } *//* 13px/24px */
+/* element { font-size:0.75em; line-height: 2.0; } *//* 12px/24px */
+
+ol, ul, dl { margin-left: 1.5em; }
+p, ul, dialog, figure { margin-top: 1.5em; }
+p + p, dd + dd, ol ol, ul ul, p + ul,  p + ol, ul + p, ol + p { margin-top: 0; }
+p + p, dd + dd, ul + p, ol + p { text-indent: 1.5em; }
+ol ol li, ul ul li { list-style-type: circle; }
+p + ul,  p + ol { margin-left: 2.5em; }
+
+article, .activities { width: 50em; margin: 0 auto; word-spacing: 0.125em; }
+article header hgroup h2, article header hgroup h3 { margin-top: 0; font-weight: normal; }
+article header hgroup h3 { color: #999; }
+
+blockquote { margin: 0.75em 1.5em -0.75em 1.5em; font-style: italic; }
+
+footer { background-color: #333; margin-top: 1.846em; padding: 1.231em 0.8125em 0.8125em 0; text-align: right; font-size: 0.8125em; line-height: 1.231; color: #ccc; }
+footer a { color: #fff; }
+footer ol { margin-left: 0; }
+footer ol li { list-style: none; }
+
+.highlight { background-color: #ffff99; }
+
+/* (ceil(image height / 24px) * 24px - image height) / 24px = top and bottom margin value to maintain the baseline */
+figure { text-indent: 0; text-align: center; margin-left: -5.3125em; margin-right: -5.3125em; }
+figcaption { font-size: 0.8125em; line-height: 1.846; }
+
+.spacer { margin-right: 1.875em; }
+
+.activities { font-family: Constantia, "Lucida Bright", LucidaBright, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif; }
+.activities ul { margin-left: 0; }
+.activities ul li { font-size: 1.5em; line-height: 1.0; margin-top: 1.0em; font-weight: normal; list-style: none; }
+.activities ul li span { font-size: 0.583em; color: #999; font-weight: normal; margin-top: 0; }
+
+#previously { margin-top: 4.5em; }
+</style>
+<!-- Why can't I specify an alternate style sheet using a <style> element? -->
+<link rel="alternate stylesheet" type="text/css" title="Display baseline" href="data:text/css;charset=iso-8859-1,body%7Bbackground-image%3Aurl(data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAADAAAAAwAQMAAABtzGvEAAAABGdBTUEAALGPC%252FxhBQAAAAFzUkdCAK7OHOkAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAZQTFRF4ODg%252F%252F%252F%252FTTYCuAAAABh0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjM2qefiJQAAABFJREFUGFdjYBgi4D8YDHoKABTRj3GvFdGUAAAAAElFTkSuQmCC)%3B%7D">
+</head>
+<body>
+
+<article>
+<header>
+<hgroup>
+<h1>Austin UX in 2010</h1>
+<h2>User experience, interaction design and other design-related&nbsp;activities</h2>
+</hgroup>
+</header>
+<p class="email">Following <a rel="external" href="http://ixdaaustin.ning.com/">IXDA Austin</a>, <a rel="external" href="http://www.austinupa.org/">Austin UPA</a>, <a rel="external" href="http://aigaaustin.org/">AIGA Austin</a>, <a rel="external" href="http://vi.to/workshop/">Design Workshops</a>, <a rel="external" href="http://www.stcaustin.org/">STC Austin</a>, <a rel="external" href="http://www.meetup.com/atxdm-org/">Austin Texas Design and Media Meetup</a>, <a rel="external" href="http://www.refreshaustin.org/">Refresh Austin</a>, the <a rel="external" href="http://www.ischool.utexas.edu/">School of Information</a> and the <a rel="external" href="http://www.finearts.utexas.edu/aah/design/index.cfm">Design Division, Department of Art and Art History, College of Fine Arts</a>. Did I miss something?</p>
+
+<p class="list">Want occasional email about UX things in Austin?  A quiet, local mailing list to chit-chat about design?</p>
+
+<p><a href="/">Back to current Austin UX events.</a></p>
+</article>
+
+<nav id="previously" class="activities">
+<h1>2010</h1>
+<ul>
+
+<li>Holiday party <span>STC</span><br>
+<span>Thursday, December 16, 2010: <a rel="external" href="http://www.surveymonkey.com/s/RSVP_Holiday_Party_STC_Austin_2010">http://www.surveymonkey.com/s/RSVP_Holiday_Party_STC_Austin_2010</a></span></li>
+
+<li>Networking lunch <span>STC</span><br>
+<span>Wednesday, December 15, 2010: <a rel="external" href="http://www.stcaustin.org/events-mainmenu-2/21-networking-lunches/134-central-austin-networking-lunch">http://www.stcaustin.org/events-mainmenu-2/21-networking-lunches/134-central-austin-networking-lunch</a></span></li>
+
+<li>Holiday party <span>AD2ATX</span><br>
+<span>Tuesday, December 14, 2010: <a rel="external" href="http://ad2atx.com/">http://ad2atx.com/</a></span></li>
+
+<li>Holiday party <span>the entire Austin web&nbsp;community</span><br>
+<span>Tuesday, December 14, 2010: <a rel="external" href="http://www.refreshaustin.org/bash/">http://www.refreshaustin.org/bash/</a></span></li>
+
+<li>UX lunch <span>IXDA</span><br>
+<span>Thursday, December 9, 2010: <a rel="external" href="http://ixdaaustin.ning.com/events/ux-lunch-4">http://ixdaaustin.ning.com/events/ux-lunch-4</a></span></li>
+
+<li>Holiday party <span>ATXDM</span><br>
+<span>Wednesday, December 8, 2010: <a rel="external" href="http://www.meetup.com/atxdm-org/calendar/15630014/">http://www.meetup.com/atxdm-org/calendar/15630014/</a></span></li>
+
+<li>Mia Lustria on &ldquo;Research perspectives in consumer health informatics&rdquo; <span>iSchool research&nbsp;colloquium</span><br>
+<span>Wednesday, December 8, 2010: <a rel="external" href="http://www.ischool.utexas.edu/events/print.php?cal=ischool&amp;getdate=20101208&amp;printview=day">http://www.ischool.utexas.edu/events/print.php?cal=ischool&amp;getdate=20101208&amp;printview=day</a></span></li>
+
+<li>Sarah Kim&rsquo;s dissertation proposal defense on &ldquo;Personal digital archives: preservation of documents, preservation of self&rdquo; <span>iSchool</span><br>
+<span>Friday, December 3, 2010: <a rel="external" href="http://www.ischool.utexas.edu/events/print.php?cal=ischool&amp;getdate=20101203&amp;printview=day">http://www.ischool.utexas.edu/events/print.php?cal=ischool&getdate=20101203&printview=day</a> (also <a rel="external" href="http://srhkim.com/files/PhD-proposal-final-sarahkim-dissemination.pdf">her PhD dissertation proposal in PDF</a>)</span></li>
+
+<li>2010 Fall capstone poster session <span>iSchool</span><br>
+<span>Friday, December 3, 2010, UTA first floor lounge, 2-4pm</span></li>
+
+<li>2010 Fall technology showcase <span>iSchool</span><br>
+<span>Friday, December 3, 2010: <a rel="external" href="https://wiki.ischool.utexas.edu/index.php/2010_Fall_Technology_Showcase">https://wiki.ischool.utexas.edu/index.php/2010_Fall_Technology_Showcase</a></span></li>
+
+<li>Janet Swisher on &ldquo;Social Media for Your Career and Job&rdquo; <span>STC</span><br>
+<span>Thursday, December 2, 2010: <a rel="external" href="http://stc-techedit.org/Social+Media+for+Your+Career+and+Job">http://stc-techedit.org/Social+Media+for+Your+Career+and+Job</a></span></li>
+
+<li>2010 annual membership party <span>AIGA</span><br>
+<span>Wednesday, December 1, 2010: <a rel="external" href="http://aigaaustin.org/events/2010/12/detail/1570">http://aigaaustin.org/events/2010/12/detail/1570</a></span></li>
+
+<li>Networking lunch <span>STC</span><br>
+<span>Wednesday, December 1, 2010: <a rel="external" href="http://www.stcaustin.org/events-mainmenu-2/21-networking-lunches/120-north-austin-networking-lunch">http://www.stcaustin.org/events-mainmenu-2/21-networking-lunches/120-north-austin-networking-lunch</a></span></li>
+
+<li>Annette Priest on &ldquo;You don't know me at all! User research for the cheap and lazy&rdquo; <span>IXDA</span><br>
+<span>Tuesday, November 30, 2010: <a rel="external" href="http://ixdaaustin.ning.com/events/you-dont-know-me-at-all-user">http://ixdaaustin.ning.com/events/you-dont-know-me-at-all-user</a></span></li>
+
+<li>Philip Doty on &ldquo;Legal and policy perspectives on copyright, privacy, and free expression&rdquo; <span>iSchool research&nbsp;colloquium</span><br>
+<span>Tuesday, November 30, 2010: <a rel="external" href="http://www.ischool.utexas.edu/events/print.php?cal=ischool&amp;getdate=20101130&amp;printview=day">http://www.ischool.utexas.edu/events/print.php?cal=ischool&getdate=20101130&printview=day</a></span></li>
+
+<li>Meetup <span>ATXDM</span><br>
+<span>Tuesday, November 23, 2010: <a rel="external" href="http://www.meetup.com/atxdm-org/calendar/15481684/">http://www.meetup.com/atxdm-org/calendar/15481684/</a></span></li>
+
+<li>Ciaran Trace on &ldquo;Exploring the relationship of documents to human actions and activities&rdquo; <span>iSchool research&nbsp;colloquium</span><br>
+<span>Tuesday, November 23, 2010: <a rel="external" href="http://www.ischool.utexas.edu/events/month.php?cal=ischool&amp;getdate=20101123">http://www.ischool.utexas.edu/events/month.php?cal=ischool&getdate=20101123</a></span></li>
+
+<li>Thirteen23 guest lecture on their design studio and process <span>DSA</span><br>
+<span>Monday, November 22, 2010, 6:15p, UT Fine Arts Building (ART), 1.202</span></li>
+
+<li>East Austin Studio Tour <span>EAST</span><br>
+<span>Saturday, November 20 and Sunday, November 21, 2010: <a rel="external" href="http://www.eastaustinstudiotour.com/">http://www.eastaustinstudiotour.com/</a></span></li>
+
+<li>David Reinfurt on &ldquo;Mathematical Typography&rdquo; <span>Design Division lecture&nbsp;series</span><br>
+<span>Wednesday, November 17, 2010: <a rel="external" href="http://www.finearts.utexas.edu/events/detail.cfm?calset=aah&amp;id=2926">http://www.finearts.utexas.edu/events/detail.cfm?calset=aah&id=2926</a></span></li>
+
+<li>Jeanine Finn on &ldquo;Unprepared for information interactions: abuse survivors and police&rdquo; <span>iSchool research&nbsp;colloquium</span><br>
+<span>Tuesday, November 16, 2010: <a rel="external" href="http://www.ischool.utexas.edu/events/month.php?cal=ischool&amp;getdate=20101116">http://www.ischool.utexas.edu/events/month.php?cal=ischool&getdate=20101116</a></span></li>
+
+<li>East Austin Studio Tour <span>EAST</span><br>
+<span>Saturday, November 13 and Sunday, November 14, 2010: <a rel="external" href="http://www.eastaustinstudiotour.com/">http://www.eastaustinstudiotour.com/</a></span></li>
+
+<li>David Ayman Shamma on &ldquo;Staying together: understanding people and media in synchronous connected systems&rdquo;<span>iSchool Yahoo!&nbsp;seminar</span><br>
+<span>Friday, November 12, 2010: <a rel="external" href="http://ir.ischool.utexas.edu/yahoo-series/">http://ir.ischool.utexas.edu/yahoo-series/</a></span></li>
+
+<li>Slick devices, fat fingers: understanding usability in mobile <span>UPA</span><br>
+<span>Thursday, November 11, 2010: <a rel="external" href="http://www.austinupa.org/2010/10/slick-devices-fat-fingers/">http://www.austinupa.org/2010/10/slick-devices-fat-fingers/</a></span></li>
+
+<li>Meetup <span>ATXDM</span><br>
+<span>Thursday, November 11, 2010: <a rel="external" href="http://www.meetup.com/atxdm-org/calendar/15352325/">http://www.meetup.com/atxdm-org/calendar/15352325/</a></span></li>
+
+<li>Scott Ingram on &ldquo;Networking doesn&rsquo;t happen at networking events&rdquo; <span>STC</span><br>
+<span>Wednesday, November 10, 2010: <a rel="external" href="http://www.stcaustin.org/events-mainmenu-2/1-chapter-meetings/422-chapter-meeting-nov-10">http://www.stcaustin.org/events-mainmenu-2/1-chapter-meetings/422-chapter-meeting-nov-10</a></span></li>
+
+<li>Russ Somers on &ldquo;Free ice cream and four other truly evil marketing tricks&rdquo; <span>Refresh&nbsp;Austin</span><br>
+<span>Tuesday, November 9, 2010: <a rel="external" href="http://www.refreshaustin.org/2010/november-meeting-open-government-and-evil-marketing-tricks/">http://www.refreshaustin.org/2010/november-meeting-open-government-and-evil-marketing-tricks/</a> (canceled)</span></li>
+
+<li>Volunteer mixer <span>AIGA</span><br>
+<span>Tuesday, November 9, 2010: <a rel="external" href="http://aigaaustin.org/events/2010/11/detail/1565">http://aigaaustin.org/events/2010/11/detail/1565</a></span></li>
+
+<li>Daniel Lorenzetti and Juan Garcia on &ldquo;Transmedia storytelling&rdquo; <span>Austin&nbsp;Forum</span><br>
+<span>Tuesday, November 9, 2010: <a rel="external" href="http://www.austinforum.org/speakers/lorenzetti_garcia.html">http://www.austinforum.org/speakers/lorenzetti_garcia.html</a></span></li>
+
+<li>Paul T. Arellanes on &ldquo;Information architecture in the real world&rdquo; <span>UT ASIS&amp;T brown bag&nbsp;lunch</span><br>
+<span>Friday, November 5, 2010, 11:30am, UTA student lounge (no public URL, bring your own&nbsp;lunch)</li>
+
+<li>UX lunch <span>IXDA</span><br>
+<span>Thursday, November 4, 2010: <a rel="external" href="http://ixdaaustin.ning.com/events/ux-lunch-3">http://ixdaaustin.ning.com/events/ux-lunch-3</a></span></li>
+
+<li>Networking lunch <span>STC</span><br>
+<span>Wednesday, November 3, 2010: <a rel="external" href="http://www.stcaustin.org/events-mainmenu-2/21-networking-lunches/120-north-austin-networking-lunch">http://www.stcaustin.org/events-mainmenu-2/21-networking-lunches/120-north-austin-networking-lunch</a></span></li>
+
+<li>Museum technology unconference <span>THATcamp MCN</span><br>
+<span>Thursday, October 28 through Saturday, October 30, 2010: <a rel="external" href="http://mcn2010.thatcamp.org/">http://mcn2010.thatcamp.org/</a></span></li>
+
+<li>Philip Mooney on &ldquo;It&rsquo;s the real(?) thing: documenting Coca-Cola in the 21st century&rdquo; <span>SAA Archives&nbsp;Week</span><br>
+<span>Thursday, October 28, 2010: <a rel="external" href="http://www.ischool.utexas.edu/~saa/WEBPAGE-updated10-7.jpg">http://www.ischool.utexas.edu/~saa/WEBPAGE-updated10-7.jpg</a></span></li>
+
+<li>Design Ranch kickoff party <span>AIGA</span><br>
+<span>Wednesday, October 27, 2010: <a rel="external" href="http://aigaaustin.org/events/2010/10/detail/1449">http://aigaaustin.org/events/2010/10/detail/1449</a></span></li>
+
+<li>Jack Molisani on &ldquo;Job hunting secrets that might surprise you&rdquo; <span>STC</span><br>
+<span>Wednesday, October 27, 2010: <a rel="external" href="http://www.stcaustin.org/events-mainmenu-2/1-chapter-meetings/412-chapter-meeting-october-28">http://www.stcaustin.org/events-mainmenu-2/1-chapter-meetings/412-chapter-meeting-october-28</a></span></li>
+
+<li>Pamela Whitenack on &ldquo;Telling the whole story: documenting the Hershey community through oral history&rdquo; <span>SAA Archives&nbsp;Week</span><br>
+<span>Tuesday, October 26, 2010: <a rel="external" href="http://www.ischool.utexas.edu/~saa/WEBPAGE-updated10-7.jpg">http://www.ischool.utexas.edu/~saa/WEBPAGE-updated10-7.jpg</a></span></li>
+
+<li>Brad Love on &ldquo;Information as treatment: online communities as psychosocial support for young adults with cancer&rdquo; <span>iSchool research&nbsp;colloquium</span><br>
+<span>Tuesday, October 26, 2010: <a rel="external" href="http://www.ischool.utexas.edu/events/month.php?cal=ischool&amp;getdate=20101026">http://www.ischool.utexas.edu/events/month.php?cal=ischool&getdate=20101026</a></span></li>
+
+<li>Celebrate Arthouse reopening party <span>Arthouse at the Jones&nbsp;Center</span><br>
+<span>Friday, October 22, 2010: <a rel="external" href="http://www.thenewarthouse.org/">http://www.thenewarthouse.org/</a></span></li>
+
+<li>Shalini Urs on &ldquo;iSchools: repositioning and redefining information education and research&rdquo; <span>iSchool invited&nbsp;speaker</span><br>
+<span>Friday, October 22, 2010: <a rel="external" href="http://www.ischool.utexas.edu/events/month.php?cal=ischool&amp;getdate=20101022">http://www.ischool.utexas.edu/events/month.php?cal=ischool&getdate=20101022</a></span></li>
+
+<li>Reading group discussion on social media <span>UT ASIS&amp;T</span><br>
+<span>Thursday, October 21, 2010: <a rel="external" href="http://twitter.com/vitorious/status/27910720781">http://twitter.com/vitorious/status/27910720781</a> (no better public&nbsp;URL)</span></li>
+
+<li>Meetup <span>ATXDM</span><br>
+<span>Wednesday, October 20, 2010: <a rel="external" href="http://www.meetup.com/atxdm-org/calendar/gltqpynnbbc/">http://www.meetup.com/atxdm-org/calendar/gltqpynnbbc/</a></span></li>
+
+<li>Vinod Srinivasan on &ldquo;Applied gaming&rdquo; <span>iSchool research&nbsp;colloquium</span><br>
+<span>Tuesday, October 19, 2010: <a rel="external" href="http://www.ischool.utexas.edu/events/month.php?cal=ischool&amp;getdate=20101019">http://www.ischool.utexas.edu/events/month.php?cal=ischool&getdate=20101019</a></span></li>
+
+<li>House party <span>Adaptive Path</span><br>
+<span>Friday, October 15, 2010: <a rel="external" href="http://austinparty.eventbrite.com/">http://austinparty.eventbrite.com/</a></span></li>
+
+<li>The Mix: a local industry event <span>AIGA</span><br>
+<span>Wednesday, October 13, 2010: <a rel="external" href="http://aigaaustin.org/events/2010/10/detail/1447">http://aigaaustin.org/events/2010/10/detail/1447</a></span></li>
+
+<li>Meetup <span>ATXDM</span><br>
+<span>Wednesday, October 6, 2010: <a rel="external" href="http://www.meetup.com/atxdm-org/calendar/15001183/">http://www.meetup.com/atxdm-org/calendar/15001183/</a></span></li>
+
+<li>Tech writer lunch <span>STC</span><br>
+<span>Wednesday, October 6, 2010: <a rel="external" href="http://www.stcaustin.org/events-mainmenu-2/21-networking-lunches/120-north-austin-networking-lunch">http://www.stcaustin.org/events-mainmenu-2/21-networking-lunches/120-north-austin-networking-lunch</a></span></li>
+
+<li>Happy hour <span>UPA</span><br>
+<span>Tuesday, October 5, 2010: <a rel="external" href="http://www.facebook.com/event.php?eid=154913334539263">http://www.facebook.com/event.php?eid=154913334539263</a></span></li>
+
+<li>Getting the Most Out of Your Graphic Designer <span>AIGA</span><br>
+<span>Friday, October 1, 2010: <a rel="external" href="http://aigaaustin.org/events/2010/10/detail/1446">http://aigaaustin.org/events/2010/10/detail/1446</a></span></li>
+
+<li>UX lunch <span>IXDA</span><br>
+<span>Friday, October 1, 2010: <a rel="external" href="http://ixdaaustin.ning.com/events/ux-lunch-2">http://ixdaaustin.ning.com/events/ux-lunch-2</a></span></li>
+
+<li>Meetup <span>STC</span><br>
+<span>September 29, 2010: <a rel="external" href="http://www.stcaustin.org/events-mainmenu-2/1-chapter-meetings/402-meetup-september-29">http://www.stcaustin.org/events-mainmenu-2/1-chapter-meetings/402-meetup-september-29</a></span></li>
+
+<li>Victore, or&hellip; <span>AIGA</span><br>
+<span>September 21, 2010: <a rel="external" href="http://aigaaustin.org/events/2010/09/detail/1448">http://aigaaustin.org/events/2010/09/detail/1448</a></span></li>
+
+<li>Student picnic <span>AIGA</span><br>
+<span>September 18, 2010: <a rel="external" href="http://aigaaustin.org/events/2010/08/detail/1403">http://aigaaustin.org/events/2010/08/detail/1403</a></span></li>
+
+<li>UX lunch <span>IXDA</span><br>
+<span>September 14, 2010: <a rel="external" href="http://ixdaaustin.ning.com/events/ux-lunch-1">http://ixdaaustin.ning.com/events/ux-lunch-1</a></span></li>
+
+<li>Happy hour <span>UPA</span><br>
+<span>September 7, 2010: <a rel="external" href="http://www.facebook.com/event.php?eid=109410949115952">http://www.facebook.com/event.php?eid=109410949115952</a></span></li>
+
+<li>UX lunch <span>IXDA</span><br>
+<span>August 31, 2010: <a rel="external" href="http://ixdaaustin.ning.com/events/ux-lunch">http://ixdaaustin.ning.com/events/ux-lunch</a></span></li>
+
+<li>Blanton Museum field trip <span>IXDA</span><br>
+<span>August 25, 2010: <a rel="external" href="http://ixdaaustin.ning.com/events/field-trip-a-visit-with-the">http://ixdaaustin.ning.com/events/field-trip-a-visit-with-the</a></span></li>
+
+<li>Web anthropology &amp; achievement systems <span>Refresh Austin</span><br>
+<span>August 10,&nbsp;2010: <a rel="external" href="http://www.facebook.com/event.php?eid=140194012678817">http://www.facebook.com/event.php?eid=140194012678817</a></span></li>
+
+<li>Web accessibility: compliance or universal design? <span>UPA</span><br>
+<span>August 3,&nbsp;2010: <a rel="external" href="http://www.facebook.com/event.php?eid=135627519806373">http://www.facebook.com/event.php?eid=135627519806373</a></span></li>
+
+<li>Introductions! design workshop <span>Design Workshops</span><br>
+<span>August 2,&nbsp;2010: <a rel="external" href="http://vi.to/workshop/">http://vi.to/workshop/</a></span></li>
+
+</ul>
+</nav>
+
+<footer>
+<ol reversed>
+<li class="email">Know of a design-related event in town?</li>
+<li>Archived <time datetime="2010-12-20" pubdate>December 20,&nbsp;2010</time></li>
+<li>Relaunched <time datetime="2010-09-29" pubdate>September 29,&nbsp;2010</time></li>
+</ol>
+</footer>
+
+<script src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+<script>
+var UXN = UXN || {};
+
+UXN.mailstring = ' You should <a href="mailto:';
+UXN.mailstring += 'vito_';
+UXN.mailstring += 'austinux';
+UXN.mailstring += '@';
+UXN.mailstring += 'perilith.com';
+UXN.mailstring += '" rel="author">email me<\/a> ';
+UXN.mailstring += 'or <a href="http://twitter.com/AustinUX" rel="author">mention&nbsp;@AustinUX<\/a>.';
+
+UXN.liststring = ' You should <a href="http://mail.austinux.org/mailman/listinfo/discuss_austinux.org" rel="external">subscribe to ';
+UXN.liststring += 'discuss';
+UXN.liststring += '@';
+UXN.liststring += 'austinux.org';
+UXN.liststring += '<\/a>.';
+
+$(document).ready(function() {
+	$('.email').append(UXN.mailstring);
+	$('.list').append(UXN.liststring);
+});
+</script>
+</body>
+
+</html>

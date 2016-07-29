@@ -1,0 +1,403 @@
+---
+$path: /index.old.html
+---
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="iso-8859-1">
+<link rel="canonical" href="http://austinux.org/">
+<title>User experience, interaction design and other design-related activities in Austin, TX</title>
+<!--[if lt IE 9]>
+<script>
+// html5shiv MIT @rem remysharp.com/html5-enabling-script
+// iepp v1.5.1 MIT @jon_neal iecss.com/print-protector
+/*@cc_on@if(@_jscript_version<9)(function(p,e){function q(a,b){if(g[a])g[a].styleSheet.cssText+=b;else{var c=r[l],d=e[j]("style");d.media=a;c.insertBefore(d,c[l]);g[a]=d;q(a,b)}}function s(a,b){for(var c=new RegExp("\\b("+m+")\\b(?!.*[;}])","gi"),d=function(k){return".iepp_"+k},h=-1;++h<a.length;){b=a[h].media||b;s(a[h].imports,b);q(b,a[h].cssText.replace(c,d))}}function t(){for(var a,b=e.getElementsByTagName("*"),c,d,h=new RegExp("^"+m+"$","i"),k=-1;++k<b.length;)if((a=b[k])&&(d=a.nodeName.match(h))){c=new RegExp("^\\s*<"+d+"(.*)\\/"+
+d+">\\s*$","i");i.innerHTML=a.outerHTML.replace(/\r|\n/g," ").replace(c,a.currentStyle.display=="block"?"<div$1/div>":"<span$1/span>");c=i.childNodes[0];c.className+=" iepp_"+d;c=f[f.length]=[a,c];a.parentNode.replaceChild(c[1],c[0])}s(e.styleSheets,"all")}function u(){for(var a=-1,b;++a<f.length;)f[a][1].parentNode.replaceChild(f[a][0],f[a][1]);for(b in g)r[l].removeChild(g[b]);g={};f=[]}for(var m="abbr article aside audio canvas command datalist details figure figcaption footer header hgroup mark meter nav output progress section summary time video".replace(/ /g,
+"|"),n=m.split("|"),r=e.documentElement,i=e.createDocumentFragment(),g={},f=[],o=-1,l="firstChild",j="createElement";++o<n.length;){e[j](n[o]);i[j](n[o])}i=i.appendChild(e[j]("div"));p.attachEvent("onbeforeprint",t);p.attachEvent("onafterprint",u)})(this,document)@end@*/
+</script>
+<![endif]-->
+<style>
+/*
+Copyright (c) 2010, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.com/yui/license.html
+version: 3.1.0
+build: 2026
+*/
+html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}input,textarea,select{*font-size:100%;}legend{color:#000;}
+/*h1{font-size:138.5%;}h2{font-size:123.1%;}h3{font-size:108%;}h1,h2,h3{margin:1em 0;}*/h1,h2,h3,h4,h5,h6,strong{font-weight:bold;}abbr,acronym{border-bottom:1px dotted #000;cursor:help;}em{font-style:italic;}/*blockquote,ul,ol,dl{margin:1em;}ol,ul,dl{margin-left:2em;}*/ol li{list-style:decimal outside;}ul li{list-style:disc outside;}dl dd{margin-left:1em;}th,td{border:1px solid #000;padding:.5em;}th{font-weight:bold;text-align:center;}caption{margin-bottom:.5em;text-align:center;}/*p,fieldset,table,pre{margin-bottom:1em;}*/input[type=text],input[type=password],textarea{width:12.25em;*width:11.9em;}
+
+article, aside, figure, figcaption, footer, header, hgroup, nav, section { display: block; margin: 0; padding: 0; } /* html5 */
+
+/* font stacks: http://www.codestyle.org/css/font-family/BuildBetterCSSFontStacks.shtml */
+body {
+	font-size: 100%; /* 16px */
+	font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, sans-serif;
+	line-height: 1.5em; /* 24px */
+	/* background-image: url('bg.png'); */
+}
+h1, h2, h3, h4 { font-family: Constantia, "Lucida Bright", LucidaBright, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif; }
+
+h1 { font-size: 2.25em; line-height: 1.33; margin-top: 0.63em; } /* 36px/48px */
+h2 { font-size: 1.5em; line-height: 1.0; margin-top: 1.0em; } /* 24px/24px */
+h3 { font-size: 1.25em; line-height: 1.2; margin-top: 1.2em; } /* 20px/24px */
+h4 { font-size: 0.875em; line-height: 1.714; margin-top: 1.714em; } /* 14px/24px */
+/* element { font-size: 1.125em; line-height: 1.33; margin-top: 1.33em; } *//* 18px/24px */
+/* element { font-size: 0.8125em; line-height: 1.846; } *//* 13px/24px */
+/* element { font-size:0.75em; line-height: 2.0; } *//* 12px/24px */
+
+ol, ul, dl { margin-left: 1.5em; }
+p, ul, dialog, figure { margin-top: 1.5em; }
+p + p, dd + dd, ol ol, ul ul, p + ul,  p + ol, ul + p, ol + p { margin-top: 0; }
+p + p, dd + dd, ul + p, ol + p { text-indent: 1.5em; }
+ol ol li, ul ul li { list-style-type: circle; }
+p + ul,  p + ol { margin-left: 2.5em; }
+
+article, .activities { width: 50em; margin: 0 auto; word-spacing: 0.125em; }
+article header hgroup h2, article header hgroup h3 { margin-top: 0; font-weight: normal; }
+article header hgroup h3 { color: #999; }
+
+blockquote { margin: 0.75em 1.5em -0.75em 1.5em; font-style: italic; }
+
+footer { background-color: #333; margin-top: 1.846em; padding: 1.231em 0.8125em 0.8125em 0; text-align: right; font-size: 0.8125em; line-height: 1.231; color: #ccc; }
+footer a { color: #fff; }
+footer ol { margin-left: 0; }
+footer ol li { list-style: none; }
+
+.highlight { background-color: #ffff99; }
+
+/* (ceil(image height / 24px) * 24px - image height) / 24px = top and bottom margin value to maintain the baseline */
+figure { text-indent: 0; text-align: center; margin-left: -5.3125em; margin-right: -5.3125em; }
+figcaption { font-size: 0.8125em; line-height: 1.846; }
+
+.spacer { margin-right: 1.875em; }
+
+.activities { font-family: Constantia, "Lucida Bright", LucidaBright, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif; }
+.activities ul { margin-left: 0; }
+.activities ul li { font-size: 1.5em; line-height: 1.0; margin-top: 1.0em; font-weight: normal; list-style: none; }
+.activities ul li span { font-size: 0.583em; color: #999; font-weight: normal; margin-top: 0; }
+
+#previously { margin-top: 4.5em; }
+</style>
+<!-- Why can't I specify an alternate style sheet using a <style> element? -->
+<link rel="alternate stylesheet" type="text/css" title="Display baseline" href="data:text/css;charset=iso-8859-1,body%7Bbackground-image%3Aurl(data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAADAAAAAwAQMAAABtzGvEAAAABGdBTUEAALGPC%252FxhBQAAAAFzUkdCAK7OHOkAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAZQTFRF4ODg%252F%252F%252F%252FTTYCuAAAABh0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjM2qefiJQAAABFJREFUGFdjYBgi4D8YDHoKABTRj3GvFdGUAAAAAElFTkSuQmCC)%3B%7D">
+</head>
+<body>
+
+<article>
+<header>
+<hgroup>
+<h1>Austin UX</h1>
+<h2>User experience, interaction design and other design-related&nbsp;activities</h2>
+</hgroup>
+</header>
+<p>New to the Austin design community?  <a rel="external" href="https://www.youtube.com/watch?v=Q_0J8K--9XI">Watch this video</a> and <a rel="external" href="http://vi.to/intro-austin-design-jun-2015">read these slides</a> from our June 2015 talk.</p>
+<p><a href="#calendar">Skip down to the calendar of events.</a></p>
+<p class="email">This site curates UX-related design events from <a rel="external" href="http://ixdaaustin.ning.com/">IxDA Austin</a>, <a rel="external" href="http://www.meetup.com/Austin-User-Experience-Professionals-Association/">Austin UXPA</a><!-- (formerly UPA)-->, <a rel="external" href="http://austin.aiga.org/">AIGA Austin</a>, <!--<a rel="external" href="http://vi.to/workshop/">Design Workshops</a>,--> <a rel="external" href="http://www.stcaustin.org/">STC Austin</a>, the <a rel="external" href="http://www.meetup.com/ADVAnet/">Austin Design and Visual Arts Network</a><!-- (formerly ATXDM)-->, <a rel="external" href="http://www.refreshaustin.org/">Refresh Austin</a>, the <a rel="external" href="https://www.ischool.utexas.edu/about/calendars">School of Information</a>, the <a rel="external" href="http://www.utexas.edu/finearts/aah/calendar">Department of Art and Art History</a>, the <a rel="external" href="http://www.meetup.com/Austin-Content">Austin Content Meetup</a>, <a rel="external" href="http://www.meetup.com/Agile-UX-SIG/">Agile Austin UX SIG</a>, the <a rel="external" href="http://twitter.com/atxdribbble">ATXDribbble Meetup</a>, <!--the <a rel="external" href="http://www.theaustinyachtclub.com/">Austin Yacht Club</a> (not a yacht club, a list of design and social entrepreneurship companies and related events),--> the <a rel="external" href="http://www.meetup.com/The-Austin-Mobile-App-Design-and-Art-Group/">Austin Mobile App Design and Art Group</a>, <!--<a rel="external" href="http://designprolunch.com/Austin">Design Pro Lunch Austin</a>,--> <a rel="external" href="http://www.meetup.com/luxatx/">Lean User Experience Austin</a>, <!--the iSchool&rsquo;s <a rel="external" href="https://infoinstitute.utexas.edu/courses">Information Institute</a>,--> <a rel="external" href="http://creativemornings.com/cities/atx">CreativeMornings/Austin</a>, the <a rel="external" href="http://utvac.org/programs/calendar">Visual Arts Center</a>, the <a rel="external" href="https://www.facebook.com/groups/43317710317/">UX Book Club: Austin</a>, <a rel="external" href="http://www.meetup.com/Enterprise-UX-Austin/">Enterprise UX Austin</a>, <a rel="external" href="http://www.austininitiativeforgraphicawesomeness.com/">Austin Initiative for Graphic Awesomeness</a>, <a rel="external" href="http://www.meetup.com/Hot-Topics-in-UX-Finding-Expert-Answers/">Hot Topics in UX: Finding Expert Answers</a>, <a rel="external" href="http://www.meetup.com/Ladies-That-UX-Austin/">Ladies That UX, Austin</a>, <a rel="external" href="https://generalassemb.ly/education">General Assembly</a>, <a rel="external" href="https://www.facebook.com/groups/740578259350169/">Austin UX Researchers</a>, <a rel="external" href="https://wrkshop.co/">Wrkshop</a> and <a rel="external" href="https://www.facebook.com/groups/1079518765396891/">Fresh to Design in ATX</a>. Did I miss something?</p>
+<ul>
+<li>1st Tuesday: Austin UXPA</li>
+<li>1st Wednesday, every other month: IxDA Austin UX lunch
+<li>2nd Tuesday: Refresh Austin, 7pm at Buffalo Billiards</li>
+<li>3rd Thursday: Fresh to Design in ATX happy hour</li>
+<li>Everyone else meets irregularly</li>
+</ul>
+<p class="list">Want weekly reminder emails about upcoming events? <span class="highlight">You should <a href="http://eepurl.com/bwa_Gr" rel="external">subscribe to the mailing list.</a></span></p>
+<p>If you want these events to show up in your Google or Outlook or iOS calendars, or your newsreader, visit <a href="http://plancast.com/austinux">http://plancast.com/austinux</a>.  There&rsquo;s a bunch of icons in the upper right: the weird shopping-bag-eye is calendar export, and the angled wifi is RSS export.</p>
+<p>You might also be interested in the <a href="http://www.linkedin.com/groups/Austin-UX-1224467/about">Austin UX LinkedIn group</a> run by Craig Moser, the #design-talk channel in the <a href="http://slack.refreshaustin.org/">Refresh Austin Slack</a>, the #local_austin channel in the <a href="http://www.designerhangout.co/">UX Community Slack</a>, the <a href="https://austinuxui.herokuapp.com/">Austin UX/UI Slack</a>, or the <a href="https://dcth.slack.com/">Design Community Twitter Hours (#dcth) Slack</a> (message Cecy Correa <a href="https://twitter.com/cecycorrea">on Twitter</a> for&nbsp;access)</li>.</p>
+<p>Cory Lebson wrote a nice thing about Austin UX for UX Magazine, <a href="http://uxmag.com/articles/the-hidden-value-of-ux-connectors-and-the-future-of-our-community" rel="external">The Hidden Value of UX Connectors and the Future of Our Community</a>.</p>
+<p>Updates Sunday nights.</p>
+<!--
+<br>
+<br>
+<p class="highlight"><strong>You should be taking the 2012 Austin survey!  Tell us about yourself so we can plan better events and support you professionally.  Whether you&rsquo;re a designer, a developer, a researcher, a writer, or something else, <em>take it!</em>  <a href="http://vi.to/austin-survey-2012">Take it and then tell your coworkers to!</a></strong></p>
+-->
+</article>
+
+<nav class="activities" id="calendar">
+<h1 style="visibility: hidden;">Upcoming events</h1>
+<script type="text/javascript" src="http://plancast.com/goodies/widgets/full/1/1629148"></script>
+</nav>
+
+
+<!--
+<nav id="previously" class="activities">
+<h1>Previously</h1>
+<ul>
+
+<li>&ldquo;Self-promotion in the digital age&rdquo; with Shennandoah Diaz of Brass Knuckles Media <span>AIGA</span><br>
+<span>Saturday, April 30, 2011: <a rel="external" href="http://aigaaustin.org/events/2011/04/detail/1656">http://aigaaustin.org/events/2011/04/detail/1656</a></span></li>
+
+<li>&ldquo;Viewpoint series seminar&rdquo; with Thomas Levin and Carrie Lambert-Beatty <span>Art</span><br>
+<span>Friday, April 29, 2011: <a rel="external" href="http://www.finearts.utexas.edu/events/detail.cfm?calset=aah&amp;id=3051">http://www.finearts.utexas.edu/events/detail.cfm?calset=aah&amp;id=3051</a></span></li>
+
+<li>&ldquo;Viewpoint series lecture&rdquo; with Thomas Levin and Carrie Lambert-Beatty <span>Art</span><br>
+<span>Thursday, April 28, 2011: <a rel="external" href="http://www.finearts.utexas.edu/events/detail.cfm?calset=aah&amp;id=3050">http://www.finearts.utexas.edu/events/detail.cfm?calset=aah&amp;id=3050</a></span></li>
+
+<li>Meetup <span>ATXDM</span><br>
+<span>Wednesday, April 27, 2011</span></li>
+
+<li>&ldquo;Art in practice&rdquo; panel discussion <span>Art</span><br>
+<span>Tuesday, April 26, 2011: <a rel="external" href="http://www.utexas.edu/finearts/vac/programs/art-in-practice-campbell-chesser-palacios-dikeou-vogel-dunbar">http://www.utexas.edu/finearts/vac/programs/art-in-practice-campbell-chesser-palacios-dikeou-vogel-dunbar</a></span></li>
+
+<li>&ldquo;Vision and the visual; the way of the world in 2D&rdquo; with Ken Botnick of Kranzberg Book Studio, Washington University <span>Art</span><br>
+<span>Monday, April 25, 2011: <a rel="external" href="http://www.finearts.utexas.edu/events/detail.cfm?calset=aah&amp;id=3131">http://www.finearts.utexas.edu/events/detail.cfm?calset=aah&amp;id=3131</a></span></li>
+
+<li>Networking and resume review <span>STC</span><br>
+<span>Thursday, April 21, 2011: <a rel="external" href="http://www.stcaustin.org/events-mainmenu-2/1-chapter-meetings/481-resume-follow-up-and-networking-event-april-21">http://www.stcaustin.org/events-mainmenu-2/1-chapter-meetings/481-resume-follow-up-and-networking-event-april-21</a></span></li>
+
+<li>&ldquo;Dramas of context, communities of interest: using digital media in the art museum&rdquo; with Peter Samis of the San Francisco Museum of Modern Art <span>Art</span><br>
+<span>Thursday, April 21, 2011: <a rel="external" href=http://www.finearts.utexas.edu/events/detail.cfm?calset=aah&amp;id=3125">http://www.finearts.utexas.edu/events/detail.cfm?calset=aah&amp;id=3125</a></span></li>
+
+<li>&ldquo;Design MFA candidates discuss work in thesis exhibition&rdquo; <span>Art</span><br>
+<span>Wednesday, April 20, 2011: <a rel="external" href="http://www.finearts.utexas.edu/events/detail.cfm?calset=aah&amp;id=3132">http://www.finearts.utexas.edu/events/detail.cfm?calset=aah&amp;id=3132</a></span></li>
+
+<li>Meetup <span>ATXDM</span><br>
+<span>Wednesday, April 20, 2011</span></li>
+
+<li>&ldquo;Small talks&rdquo; with photographer Woody Welch <span>AIGA</span><br>
+<span>Wednesday, April 20, 2011: <a rel="external" href="http://aigaaustin.org/events/2011/04/detail/1668">http://aigaaustin.org/events/2011/04/detail/1668</a></span></li>
+
+<li>Sustainable Design Symposium <span>Art</span><br>
+<span>Friday, April 15, 2011: <a rel="external" href="http://www.finearts.utexas.edu/events/detail.cfm?calset=aah&amp;id=3118">http://www.finearts.utexas.edu/events/detail.cfm?calset=aah&amp;id=3118</a></span></li>
+
+<li>Design Ranch 2011 <span>AIGA</span><br>
+<span>Thursday, April 14 through Sunday, April 17, 2011: <a rel="external" href="http://designranch.org/">http://designranch.org/</a></span></li>
+
+<li>&ldquo;Design lecture series&rdquo; with Forest Young and Mary Voorhees Meehan <span>Art</span><br>
+<span>Wednesday, April 13, 2011: <a rel="external" href="http://www.finearts.utexas.edu/events/detail.cfm?calset=aah&amp;id=3130">http://www.finearts.utexas.edu/events/detail.cfm?calset=aah&amp;id=3130</a></span></li>
+
+<li>Meetup <span>ATXDM</span><br>
+<span>Wednesday, April 13, 2011</span></li>
+
+<li>Meetup <span>Refresh</span><br>
+<span>Tuesday, April 12, 2011</span></li>
+
+<li>&ldquo;Art in practice&rdquo; with Brad Stein, attorney <span>Art</span><br>
+<span>Tuesday, April 12, 2011: <a rel="external" href="http://www.utexas.edu/finearts/vac/programs/art-in-practice-brad-stein">http://www.utexas.edu/finearts/vac/programs/art-in-practice-brad-stein</a></span></li>
+
+<li>&ldquo;Preparing and talking about your portfolio&rdquo; with Oen Michael Hammonds <span>AIGA</span><br>
+<span>Saturday, April 9, 2011: <a rel="external" href="http://aigaaustin.org/events/2011/04/detail/1641">http://aigaaustin.org/events/2011/04/detail/1641</a></span></li>
+
+<li>&ldquo;aaron FUCKIN draplin&rdquo; PRINT+addiction live screen printing party with Aaron James Draplin of Draplin Design Co. <span>Industry Print Shop</span><br>
+<span>Friday, April 8, 2011: <a rel="external" href="http://printaddiction.blogspot.com/2011/03/arron-fuckin-draplin.html">http://printaddiction.blogspot.com/2011/03/arron-fuckin-draplin.html</a></span></li>
+
+<li>&ldquo;Viewpoint series seminar&rdquo; with Thomas Levin and Carrie Lambert-Beatty <span>Art</span><br>
+<span>Friday, April 8, 2011: <a rel="external" href="http://www.finearts.utexas.edu/events/detail.cfm?calset=aah&amp;id=3052">http://www.finearts.utexas.edu/events/detail.cfm?calset=aah&amp;id=3052</a></span></li>
+
+<li>&ldquo;DDC vs. Austin: tall tales from a large man&rdquo; with Aaron James Draplin of Draplin Design Co. <span>CWU</span><br>
+<span>Thursday, April 7, 2011: <a rel="external" href="http://www.creativeworkersunion.org/1139224/Draplin-Design-Co-vs-Austin">http://www.creativeworkersunion.org/1139224/Draplin-Design-Co-vs-Austin</a></span></li>
+
+<li>Happy hour mixer with drinks sponsored by BioWare Austin <span>IXDA</span><br>
+<span>Thursday, April 7, 2011: <a rel="external" href="http://ixdaaustin.ning.com/events/happy-hour-mixer-3">http://ixdaaustin.ning.com/events/happy-hour-mixer-3</a></span></li>
+
+<li>&ldquo;Viewpoint series lecture&rdquo; with Thomas Levin and Carrie Lambert-Beatty <span>Art</span><br>
+<span>Thursday, April 7, 2011: <a rel="external" href="http://www.finearts.utexas.edu/events/detail.cfm?calset=aah&amp;id=3049">http://www.finearts.utexas.edu/events/detail.cfm?calset=aah&amp;id=3049</a></span></li>
+
+<li>Meetup <span>ATXDM</span><br>
+<span>Wednesday, April 6, 2011</span></li>
+
+<li>North Austin networking lunch <span>STC</span><br>
+<span>Wednesday, April 6, 2011: <a rel="external" href="http://www.stcaustin.org/events-mainmenu-2/21-networking-lunches/120-north-austin-networking-lunch">http://www.stcaustin.org/events-mainmenu-2/21-networking-lunches/120-north-austin-networking-lunch</a></span></li>
+
+<li>SXSW recap meeting <span>UPA</span><br>
+<span>Tuesday, April 5, 2011: <a rel="external" href="http://www.austinupa.org/2011/03/sxsw-recap-meeting/">http://www.austinupa.org/2011/03/sxsw-recap-meeting/</a></span></li>
+
+<li>&ldquo;Design lecture series&rdquo; with Jon Kolko of Thinktiv and the Austin Center for Design <span>Art</span><br>
+<span>Monday, April 4, 2011: <a rel="external" href="http://www.finearts.utexas.edu/events/detail.cfm?calset=aah&amp;id=3129">http://www.finearts.utexas.edu/events/detail.cfm?calset=aah&amp;id=3129</a></span></li>
+
+<li>&ldquo;Refactoring the Reference Interview: Users, Uses and Humanities Data Curation in the 21st Century&rdquo; with Tanya Clement <span>iSchool</span><br>
+<span>Thursday, March 31, 2011: <a rel="external" href="http://www.ischool.utexas.edu/events/print.php?cal=ischool&amp;getdate=20110331&amp;printview=day">http://www.ischool.utexas.edu/events/print.php?cal=ischool&amp;getdate=20110331&amp;printview=day</a></span></li>
+
+<li>&ldquo;Discovering Brand Strategy&rdquo; with Shannon Carter <span>AIGA</span><br>
+<span>Monday, March 28, 2011: <a rel="external" href="http://aigaaustin.org/events/2011/03/detail/1648">http://aigaaustin.org/events/2011/03/detail/1648</a></span></li>
+
+<li>&ldquo;The Resume for the Visual Communicator&rdquo; <span>AIGA</span><br>
+<span>Saturday, March 26, 2011: <a rel="external" href="http://aigaaustin.org/events/2011/03/detail/1640">http://aigaaustin.org/events/2011/03/detail/1640</a></span></li>
+
+<li>Meetup <span>ATXDM</span><br>
+<span>Wednesday, March 23, 2011</span></li>
+
+<li>&ldquo;Attention Please. Negotiating Distraction and Concentration around 1970&rdquo; with Volker Pantenburg <span>Art</span><br>
+<span>Monday, March 21, 2011: <a rel="external" href="http://www.finearts.utexas.edu/events/detail.cfm?calset=aah&amp;id=3078">http://www.finearts.utexas.edu/events/detail.cfm?calset=aah&amp;id=3078</a></span></li>
+
+<li>&ldquo;Sharing and Saving: Personal Digital Archives in Social Media Platforms&rdquo; with Amelia Abreu <span>iSchool</span><br>
+<span>Monday, March 21, 2011: <a rel="external" href="http://www.ischool.utexas.edu/events/print.php?cal=ischool&amp;getdate=20110321&amp;printview=day">http://www.ischool.utexas.edu/events/print.php?cal=ischool&amp;getdate=20110321&amp;printview=day</a></span></li>
+
+<li>Meetup <span>ATXDM</span><br>
+<span>Wednesday, March 16, 2011</span></li>
+
+<li>SXSW Interactive 2011 <span>SXSW</span><br>
+<span>Friday, March 11, 2011 through Tuesday, March 15, 2011: <a rel="external" href="http://sxsw.com/interactive">http://sxsw.com/interactive</a></span></li>
+
+<li>&ldquo;Creative Mass: Interact!&rdquo; <span>AIGA</span><br>
+<span>Friday, March 11, 2011: <a rel="external" href="http://aigaaustin.org/events/2011/03/detail/1652">http://aigaaustin.org/events/2011/03/detail/1652</a></span></li>
+
+<li>SXSW 2011 kickoff lunch <span>Refresh</span><br>
+<span>Friday, March 11, 2011: <a rel="external" href="http://www.refreshaustin.org/2011/refresh-kickoff-lunch-at-sxsw-2011/">http://www.refreshaustin.org/2011/refresh-kickoff-lunch-at-sxsw-2011/</a></span></li>
+
+<li>Meetup <span>ATXDM</span><br>
+<span>Wednesday, March 9, 2011</span></li>
+
+<li>&ldquo;Strategies for the Social Web for Documentation&rdquo; with Anne Gentle <span>STC</span><br>
+<span>Wednesday, March 9, 2011: <a rel="external" href="http://www.stcaustin.org/events-mainmenu-2/1-chapter-meetings/469-strategies-for-the-social-web-for-documentation-mar-9">http://www.stcaustin.org/events-mainmenu-2/1-chapter-meetings/469-strategies-for-the-social-web-for-documentation-mar-9</a></span></li>
+
+<li>&ldquo;Art in Practice&rdquo; with Seth Randle, Attorney <span>Art</span><br>
+<span>Tuesday, March 8, 2011: <a rel="external" href="http://www.utexas.edu/finearts/vac/programs/art-in-practice-seth-randle">http://www.utexas.edu/finearts/vac/programs/art-in-practice-seth-randle</a></span></li>
+
+<li>&ldquo;Handmade Nation&rdquo; film screening <span>AIGA</span><br>
+<span>Sunday, March 6, 2011: <a rel="external" href="http://aigaaustin.org/events/2011/03/detail/1625">http://aigaaustin.org/events/2011/03/detail/1625</a></span></li>
+
+<li>&ldquo;Homeless in Austin&rdquo; student design presentations <span>Austin Center for Design</span><br>
+<span>Saturday, March 5, 2011: <a rel="external" href="http://twitter.com/jkolko/status/44076521413033984">http://twitter.com/jkolko/status/44076521413033984</a></span></li>
+
+<li>&ldquo;Brand: You&rdquo; <span>AIGA</span><br>
+<span>Saturday, March 5, 2011: <a rel="external" href="http://aigaaustin.org/events/2011/03/detail/1639">http://aigaaustin.org/events/2011/03/detail/1639</a></span></li>
+
+<li>&ldquo;Aztec Pictography in European Frames: the Pictorial Translation of Ideology in Sixteenth-century Mexico&rdquo; with Dr. Elizabeth Boone <span>Art</span><br>
+<span>Friday, March 4, 2011: <a rel="external" href="http://www.finearts.utexas.edu/events/detail.cfm?calset=aah&amp;id=3077">http://www.finearts.utexas.edu/events/detail.cfm?calset=aah&amp;id=3077</a></span></li>
+
+<li>&ldquo;Building a Web Site for Beginners&rdquo; <span>ATXDM</span><br>
+<span>Wednesday, March 2, 2011: <a rel="external" href="http://www.meetup.com/atxdm-org/events/16733989/">http://www.meetup.com/atxdm-org/events/16733989/</a></span></li>
+
+<li>&ldquo;Analyzing People, Places and the Web with Statistical Text Models&rdquo; with Daniel Ramage <span>iSchool</span><br>
+<span>Wednesday, March 2, 2011: <a rel="external" href="http://www.ischool.utexas.edu/events/print.php?cal=ischool&amp;getdate=20110302&amp;printview=day">http://www.ischool.utexas.edu/events/print.php?cal=ischool&amp;getdate=20110302&amp;printview=day</a></span></li>
+
+<li>Networking lunch <span>STC</span><br>
+<span>Wednesday, March 2, 2011: <a rel="external" href="http://www.stcaustin.org/events-mainmenu-2/21-networking-lunches/120-north-austin-networking-lunch">http://www.stcaustin.org/events-mainmenu-2/21-networking-lunches/120-north-austin-networking-lunch</a></span></li>
+
+<li>Designing for Android <span>UPA</span><br>
+<span>Tuesday, March 1, 2011: <a rel="external" href="http://www.austinupa.org/2011/02/designing-for-android/">http://www.austinupa.org/2011/02/designing-for-android/</a></span></li>
+
+<li>Hands-on design workshop for the LBJ Library Digital Archives <span>IxDA</span><br>
+<span>Saturday, February 26, 2011: <a rel="external" href="http://ixdaaustin.ning.com/events/handson-design-workshop-for">http://ixdaaustin.ning.com/events/handson-design-workshop-for</a></span></li>
+
+<li>Field trip to the LBJ Library Archives <span>IxDA</span><br>
+<span>Friday, February 25, 2011: <a rel="external" href="http://ixdaaustin.ning.com/events/field-trip-to-the-lbj-library">http://ixdaaustin.ning.com/events/field-trip-to-the-lbj-library</a></span></li>
+
+<li>&ldquo;Resume review and networking&rdquo; <span>STC</span><br>
+<span>Thursday, February 24, 2011: <a rel="external" href="http://www.stcaustin.org/events-mainmenu-2/1-chapter-meetings/460-resume-review-and-networking-event-feb-24">http://www.stcaustin.org/events-mainmenu-2/1-chapter-meetings/460-resume-review-and-networking-event-feb-24</a></span></li>
+
+<li>&ldquo;Viewpoint series lecture&rdquo; with Thomas Levin and Carrie Lambert-Beatty <span>UT Department of Art &amp; Art&nbsp;History</span><br>
+<span>Thursday, February 24, 2011: <a rel="external" href="http://www.finearts.utexas.edu/events/detail.cfm?calset=aah&amp;id=3048">http://www.finearts.utexas.edu/events/detail.cfm?calset=aah&amp;id=3048</a></span></li>
+
+<li>&ldquo;Finding work!&rdquo; <span>AIGA</span><br>
+<span>Wednesday, February 23, 2011: <a rel="external" href="http://aigaaustin.org/events/2011/02/detail/1620">http://aigaaustin.org/events/2011/02/detail/1620</a></span></li>
+
+<li>Social/networking meetup <span>ATXDM</span><br>
+<span>Thursday, February 24, 2011: <a rel="external" href="http://www.meetup.com/atxdm-org/events/16693157/">http://www.meetup.com/atxdm-org/events/16693157/</a></span></li>
+
+<li>&ldquo;Career catalyst for digital creatives&rdquo; <span>AIGA</span><br>
+<span>Saturday, February 19, 2011: <a rel="external" href="http://aigaaustin.org/events/2011/02/detail/1621">http://aigaaustin.org/events/2011/02/detail/1621</a></span></li>
+
+<li>&ldquo;Motion graphics panel&rdquo; meetup <span>ATXDM</span><br>
+<span>Wednesday, February 16, 2011: <a rel="external" href="http://www.meetup.com/atxdm-org/events/16561340/">http://www.meetup.com/atxdm-org/events/16561340/</a></span></li>
+
+<li>&ldquo;Personalized adaptation to accommodate diverse user needs&rdquo; with Leah Findlater <span>iSchool</span><br>
+<span>Tuesday, February 15, 2011: <a rel="external" href="http://www.ischool.utexas.edu/events/print.php?cal=ischool&amp;getdate=20110215&amp;printview=day">http://www.ischool.utexas.edu/events/print.php?cal=ischool&amp;getdate=20110215&amp;printview=day</a></span></li>
+
+<li>&ldquo;A conversation on printmaking&rdquo; panel discussion with Katherine Brimberry, Lari Gibbons, Lyle Williams, Peter Briggs and Trenton Doyle Hancock <span>UT Visual Arts&nbsp;Center</span><br>
+<span>Sunday, February 13, 2011: <a rel="external" href="http://www.utexas.edu/finearts/vac/programs/conversation-printmaking">http://www.utexas.edu/finearts/vac/programs/conversation-printmaking</a></span></li>
+
+<li>Brown bag lunch with Philip Kromer from Infochimps <span>UT ASIS&amp;T</span><br>
+<span>Friday, February 11, 2011: <a rel="external" href="http://www.ischool.utexas.edu/events/print.php?cal=ischool&amp;getdate=20110211&amp;printview=day">http://www.ischool.utexas.edu/events/print.php?cal=ischool&amp;getdate=20110211&amp;printview=day</a></span></li>
+
+<li>&ldquo;The role of design in advertising&rdquo; with Craig Mikes and Dave Henke <span>AIGA</span><br>
+<span>Wednesday, February 9, 2011: <a rel="external" href="http://aigaaustin.org/events/2011/02/detail/1618">http://aigaaustin.org/events/2011/02/detail/1618</a></span></li>
+
+<li>&ldquo;Print and publishing panel&rdquo; meetup <span>ATXDM</span><br>
+<span>Wednesday, February 9, 2011: <a href="http://www.meetup.com/atxdm-org/events/16499739/" rel="external">http://www.meetup.com/atxdm-org/events/16499739/</a></span></li>
+
+<li>&ldquo;Art in practice&rdquo; panel discussion with Aimee Chang, Portia Hein and Philip Martin <span>UT Visual Arts&nbsp;Center</span><br>
+<span>Wednesday, February 9, 2011: <a rel="external" href="http://www.utexas.edu/finearts/vac/art-practice-panel-discussion">http://www.utexas.edu/finearts/vac/art-practice-panel-discussion</a></span></li>
+
+<li>&ldquo;HTML email: coding like it&rsquo;s 1999&rdquo; with Art Thompson <span>Refresh</span><br>
+<span>Tuesday, February 8, 2011: <a rel="external" href="http://www.facebook.com/event.php?eid=168427056536677">http://www.facebook.com/event.php?eid=168427056536677</a></span></li>
+
+<li>&ldquo;The history and the identity of International Print Center New York&rdquo; with Anne Coffin <span>UT Visual Arts&nbsp;Center</span><br>
+<span>Wednesday, February 2, 2011: <a rel="external" href="http://www.finearts.utexas.edu/events/detail.cfm?calset=aah&amp;id=3060">http://www.finearts.utexas.edu/events/detail.cfm?calset=aah&amp;id=3060</a></span></li>
+
+<li>&ldquo;Basic web panel&rdquo; meetup <span>ATXDM</span><br>
+<span>Wednesday, February 2, 2011: <a rel="external" href="http://www.meetup.com/atxdm-org/events/16380660/">http://www.meetup.com/atxdm-org/events/16380660/</a></span></li>
+
+<li>Networking lunch <span>STC</span><br>
+<span>Wednesday, February 2, 2011: <a rel="external" href="http://www.stcaustin.org/events-mainmenu-2/21-networking-lunches/120-north-austin-networking-lunch">http://www.stcaustin.org/events-mainmenu-2/21-networking-lunches/120-north-austin-networking-lunch</a></span></li>
+
+<li>Happy hour and officer elections <span>UPA</span><br>
+<span>Tuesday, February 1, 2011: <a rel="external" href="http://www.facebook.com/event.php?eid=162038773843831">http://www.facebook.com/event.php?eid=162038773843831</a></span></li>
+
+<li>&ldquo;Design speak&rdquo; with Stacy Armijo <span>AIGA</span><br>
+<span>Tuesday, February 1, 2011: <a rel="external" href="http://aigaaustin.org/events/2011/02/detail/1614">http://aigaaustin.org/events/2011/02/detail/1614</a></span></li>
+
+<li>&ldquo;Picture this - visualizing yesterday, today and tomorrow&rdquo; with Dr. Kelly Gaither <span>Austin Forum</span><br>
+<span>Tuesday, February 1, 2011: <a rel="external" href="http://www.ischool.utexas.edu/events/print.php?cal=ischool&amp;getdate=20110201&amp;printview=day">http://www.ischool.utexas.edu/events/print.php?cal=ischool&amp;getdate=20110201&amp;printview=day</a></span></li>
+
+<li>&ldquo;Exploratory and collaborative searches - understanding and supporting users' needs&rdquo; with Robert Capra <span>iSchool</span><br>
+<span>Monday, January 31, 2011: <a rel="external" href="http://www.ischool.utexas.edu/events/print.php?cal=ischool&amp;getdate=20110131&amp;printview=day">http://www.ischool.utexas.edu/events/print.php?cal=ischool&amp;getdate=20110131&amp;printview=day</a></span></li>
+
+<li>&ldquo;Geographic context on the web&rdquo; with Vanessa Murdock <span>iSchool</span><br>
+<span>Monday, January 31, 2011: <a rel="external" href="http://www.ischool.utexas.edu/events/print.php?cal=ischool&amp;getdate=20110131&amp;printview=day">http://www.ischool.utexas.edu/events/print.php?cal=ischool&amp;getdate=20110131&amp;printview=day</a></span></li>
+
+<li>&ldquo;Before you pick a wiki&rdquo; with Janet Swisher <span>STC</span><br>
+<span>Thursday, January 20, 2011: <a rel="external" href="http://www.stcaustin.org/events-mainmenu-2/1-chapter-meetings/444-before-you-pick-a-wiki">http://www.stcaustin.org/events-mainmenu-2/1-chapter-meetings/444-before-you-pick-a-wiki</a></span></li>
+
+<li>&ldquo;Credibility assessment in everyday life information activities&rdquo; with Soo Young Rieh <span>iSchool</span><br>
+<span>Thursday, January 20, 2011: <a rel="external" href="http://www.ischool.utexas.edu/events/print.php?cal=ischool&amp;getdate=20110120&amp;printview=day">http://www.ischool.utexas.edu/events/print.php?cal=ischool&amp;getdate=20110120&amp;printview=day</a></span></li>
+
+<li>Networking lunch <span>STC</span><br>
+<span>Wednesday, January 19, 2011: <a rel="external" href="http://www.stcaustin.org/events-mainmenu-2/21-networking-lunches/442-stc-austin-networking-lunches">http://www.stcaustin.org/events-mainmenu-2/21-networking-lunches/442-stc-austin-networking-lunches</a></span></li>
+
+<li>&ldquo;Using online communities to harvest ideas, decrease support costs and kick-start loyalty&rdquo; with National Instruments <span>IxDA</span><br>
+<span>Tuesday, January 18, 2011: <a rel="external" href="http://ixdaaustin.ning.com/events/using-online-communities-to">http://ixdaaustin.ning.com/events/using-online-communities-to</a></span></li>
+
+<li>&ldquo;Get fresh in 2011&rdquo; mixer <span>AIGA</span><br>
+<span>Tuesday, January 18, 2011: <a href="external" href="http://aigaaustin.org/events/2011/01/detail/1603">http://aigaaustin.org/events/2011/01/detail/1603</a></span></li>
+
+<li>2011 planning meeting <span>ATXDM</span><br>
+<span>Wednesday, January 12, 2011: <a rel="external" href="http://www.meetup.com/atxdm-org/calendar/16004511/">http://www.meetup.com/atxdm-org/calendar/16004511/</a></span></li>
+
+<li>&ldquo;Free ice cream and four other truly evil marketing tricks&rdquo; with Russ Somers <span>Refresh Austin</span><br>
+<span>Tuesday, January 11, 2011: <a rel="external" href="http://www.refreshaustin.org/2011/january-meeting-evil-marketing-tips-refresh-in-2011/">http://www.refreshaustin.org/2011/january-meeting-evil-marketing-tips-refresh-in-2011/</a></span></li>
+
+<li>&ldquo;Building values into the design of pervasive mobile technologies&rdquo; with Katie Shilton <span>iSchool</span><br>
+<span>Tuesday, January 11, 2011: <a rel="external" href="http://www.ischool.utexas.edu/events/print.php?cal=ischool&amp;getdate=20110111&amp;printview=day">http://www.ischool.utexas.edu/events/print.php?cal=ischool&amp;getdate=20110111&amp;printview=day</a></span></li>
+
+<li>Networking lunch <span>STC</span><br>
+<span>Wednesday, January 5, 2011: <a rel="external" href="http://www.stcaustin.org/events-mainmenu-2/21-networking-lunches/442-stc-austin-networking-lunches">http://www.stcaustin.org/events-mainmenu-2/21-networking-lunches/442-stc-austin-networking-lunches</a></span></li>
+
+<li>2010<br>
+<span><a href="2010/">http://austinux.org/2010/</a></span></li>
+
+</ul>
+</nav>
+-->
+
+<footer>
+<ol reversed>
+<li class="email">Know of a design-related event in town?</li>
+<li>Took over ownership and hosting of the <code>austinux.org</code> domain <time datetime="2015-08-22" pubdate>August 22,&nbsp;2015</time></li>
+<li>Migrated the discussion list (on self-hosted Mailman) to weekly reminders only (on MailChimp) <time datetime="2015-08-15" pubdate>August 15,&nbsp;2015</time></li>
+<li>Started using Plancast to manage the calendar <time datetime="2011-04-10" pubdate>April 10,&nbsp;2011</time></li>
+<li>Relaunched <time datetime="2010-09-29" pubdate>September 29,&nbsp;2010</time></li>
+</ol>
+</footer>
+
+<script src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+<script>
+var UXN = UXN || {};
+
+UXN.mailstring = ' You should <a href="mailto:';
+UXN.mailstring += 'vito_';
+UXN.mailstring += 'austinux';
+UXN.mailstring += '@';
+UXN.mailstring += 'perilith.com';
+UXN.mailstring += '" rel="author">email me<\/a> ';
+UXN.mailstring += 'or <a href="http://twitter.com/AustinUX" rel="author">mention&nbsp;@AustinUX<\/a>.';
+
+$(document).ready(function() {
+	$('.email').append(UXN.mailstring);
+});
+</script>
+</body>
+
+</html>

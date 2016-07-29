@@ -1,0 +1,19 @@
+grow_version: ">=0.0.60"
+project: austinux
+home: /content/oldhtml/index.html
+
+localization:
+  default_locale: en
+
+title: "Austin UX"
+
+static_dirs:
+- static_dir: /files/oldfiles/
+  serve_at: /
+
+deployments:
+  s3:
+    destination: s3
+    bucket: austinux.org
+    env:
+      host: austinux.org
