@@ -11,7 +11,7 @@ changelog:
 - item: Migrated the site to static generation with <a href="https://grow.io">Grow</a> <time datetime="2016-07-28" pubdate>July 28,&nbsp;2016</time>
 - item: Updated with thanks to <a href="http://ellenlazaretti.com">Ellen Lazaretti</a> <time datetime="2016-07-28" pubdate>July 28,&nbsp;2016</time>
 - item: Made public on <a href="https://github.com/vitorio/austinux.org">GitHub</a> <time datetime="2016-07-28" pubdate>July 28,&nbsp;2016</time>
-- item: Want to suggest a new site or resource? Need to reach me? <a href="https://github.com/vitorio/austinux.org/issues/new">Add a new issue with the details</a>
+- item: Want to suggest a new site or resource? Need to reach me? <a href="https://gitreports.com/issue/vitorio/austinux.org">Fill out this form</a>
 ---
 <header>
 <hgroup>

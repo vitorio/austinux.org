@@ -8,8 +8,9 @@ As of July 28, 2016, the `austinux.org` site is built using [Grow](https://grow.
 
 Have you found a new meetup or other local Austin resource you think should be added to the site?  Has a meetup in the list not met in the past year?  Let me know!  You can either:
 
-- [Add a new "issue" with all the details](https://github.com/vitorio/austinux.org/issues/new) (easy!), or
-- Fork the repository, edit `content/pages/home.md` directly, and file a pull request (hard!)
+- [Add a new "issue" with all the details](https://gitreports.com/issue/vitorio/austinux.org) (easy!), or
+- if you already have a GitHub account, you can use [GitHub's issues system directly](https://github.com/vitorio/austinux.org/issues/new) to do the same, or
+- fork the repository, edit `content/pages/home.md` directly, and file a pull request (hard!)
 
 Some suggestions:
 
