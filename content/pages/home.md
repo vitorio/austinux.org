@@ -11,6 +11,7 @@ changelog:
 - item: Migrated the site to static generation with <a href="https://grow.io">Grow</a> <time datetime="2016-07-28" pubdate>July 28,&nbsp;2016</time>
 - item: Updated with thanks to <a href="http://ellenlazaretti.com">Ellen Lazaretti</a> <time datetime="2016-07-28" pubdate>July 28,&nbsp;2016</time>
 - item: Made public on <a href="https://github.com/vitorio/austinux.org">GitHub</a> <time datetime="2016-07-28" pubdate>July 28,&nbsp;2016</time>
+- item: Updated with thanks to Jesse Loren <time datetime="2016-08-15" pubdate>August 15,&nbsp;2016</time>
 - item: Want to suggest a new site or resource? Need to reach me? <a href="https://gitreports.com/issue/vitorio/austinux.org">Fill out this form</a>
 ---
 <header>
@@ -53,7 +54,7 @@ Here's a curated list of active, UX- and design-related organizations and meetup
 - [Visual Arts Center](http://utvac.org/programs/calendar)
 - [General Assembly](https://generalassemb.ly/education)
 - [Austin Center for Design](http://www.ac4d.com)
-- [Austin Community College](http://www.austincc.edu/info/viscom)
+- [Austin Community College](http://sites.austincc.edu/viscom/)
 
 There are lots more design- and art-related meetups in Austin! But, those are particularly relevant to UX.
 
@@ -62,7 +63,7 @@ If you're interested in local, online hangouts, you might also be interested in:
 - [Austin UX LinkedIn group](https://www.linkedin.com/groups/1224467) (run by Craig Moser)
 - [Designer Hangout Slack](https://www.designerhangout.co) #local_austin channel
 - [Refresh Austin Slack](http://slack.refreshaustin.org) #design-talk channel
-- [Austin UX/UI Slack](https://austinuxui.herokuapp.com/)
+- [Austin UX Book Club Slack](https://austinuxui.herokuapp.com/)
 - [Design Community Twitter Hours (#dcth) Slack](https://dcth.slack.com) (message Cecy Correa [on Twitter](https://twitter.com/cecycorrea) for access)
 - [fresh2design Slack](https://docs.google.com/forms/d/e/1FAIpQLSfrEIQE_0Ta-Uy_nsax4CXNlZUPnGWcCtvgLeclOqQ1X7wYQg/viewform?c=0&w=1)
 
