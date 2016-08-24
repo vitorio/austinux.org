@@ -21,7 +21,7 @@ changelog:
 </hgroup>
 </header>
 
-<span class="highlight">New to the Austin design community?</span> [Watch this video](https://www.youtube.com/watch?v=Q_0J8K--9XI) and [read these slides](http://vi.to/intro-austin-design-jun-2015) from our June 2015 talk.
+<span class="highlight">New to the Austin design community?</span> [Watch this video](https://www.youtube.com/watch?v=Q_0J8K--9XI) and [read these slides](http://vi.to/intro-austin-design-jun-2015) from our June 2015 talk, and <a class="twitter-follow-button" href="https://twitter.com/AustinUX" data-show-count="false">follow @AustinUX</a> on Twitter for occasional retweets.
 
 Here's a curated list of active, UX- and design-related organizations and meetups in Austin, as of July 2016:
 
