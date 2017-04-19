@@ -12,6 +12,7 @@ changelog:
 - item: Updated with thanks to <a href="http://ellenlazaretti.com">Ellen Lazaretti</a> <time datetime="2016-07-28" pubdate>July 28,&nbsp;2016</time>
 - item: Made public on <a href="https://github.com/vitorio/austinux.org">GitHub</a> <time datetime="2016-07-28" pubdate>July 28,&nbsp;2016</time>
 - item: Updated with thanks to Jesse Loren <time datetime="2016-08-15" pubdate>August 15,&nbsp;2016</time>
+- item: Updated <time datetime="2017-04-18" pubdate>April 18,&nbsp;2017</time>
 - item: Want to suggest a new site or resource? Need to reach me? <a href="https://gitreports.com/issue/vitorio/austinux.org">Fill out this form</a>
 ---
 <header>
@@ -33,13 +34,11 @@ Here's a curated list of active, UX- and design-related organizations and meetup
 - [Refresh Austin](http://www.refreshaustin.org)
 - [#AustinContent Meetup](http://www.meetup.com/Austin-Content/)
 - [ATXDribbble Meetup](https://twitter.com/atxdribbble)
-- [ATX Mobile Design](http://www.meetup.com/Austin-Mobile-App-Design/)
 - [Lean User Experience Austin](http://www.meetup.com/luxatx/)
 - [CreativeMornings/Austin](https://creativemornings.com/cities/atx)
-- [UX Book Club: Austin](https://www.facebook.com/groups/43317710317/)
+- [UX Book Club: Austin](https://www.facebook.com/groups/43317710317/) (now meeting as part of UXPA)
 - [Enterprise UX Austin](http://www.meetup.com/Enterprise-UX-Austin/)
 - [Austin Initiative for Graphic Awesomeness](http://www.austininitiativeforgraphicawesomeness.com)
-- [Ladies That UX, Austin](http://www.meetup.com/Ladies-That-UX-Austin/)
 - [Austin UX Researchers](https://www.facebook.com/groups/740578259350169/)
 - [fresh2design](http://fresh2design.com)
 - [Speculative Futures](http://www.meetup.com/ATX-Speculative-Futures/)
@@ -63,9 +62,10 @@ If you're interested in local, online hangouts, you might also be interested in:
 - [Austin UX LinkedIn group](https://www.linkedin.com/groups/1224467) (run by Craig Moser)
 - [Designer Hangout Slack](https://www.designerhangout.co) #local_austin channel
 - [Refresh Austin Slack](http://slack.refreshaustin.org) #design-talk channel
-- [Austin UX Book Club Slack](https://austinuxui.herokuapp.com/)
+- [UX Book Club ATX Slack](https://uxbookclubatx.herokuapp.com)
 - [Design Community Twitter Hours (#dcth) Slack](https://dcth.slack.com) (message Cecy Correa [on Twitter](https://twitter.com/cecycorrea) for access)
 - [fresh2design Slack](https://docs.google.com/forms/d/e/1FAIpQLSfrEIQE_0Ta-Uy_nsax4CXNlZUPnGWcCtvgLeclOqQ1X7wYQg/viewform?c=0&w=1)
+- [AIGA Austin Slack](https://aiga-austin-slack.herokuapp.com)
 
 Then-UXPA president Cory Lebson wrote a nice article about Austin UX for UX Magazine, [The Hidden Value of UX Connectors and the Future of Our Community](http://uxmag.com/articles/the-hidden-value-of-ux-connectors-and-the-future-of-our-community).
 
