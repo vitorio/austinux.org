@@ -13,6 +13,7 @@ changelog:
 - item: Made public on <a href="https://github.com/vitorio/austinux.org">GitHub</a> <time datetime="2016-07-28" pubdate>July 28,&nbsp;2016</time>
 - item: Updated with thanks to Jesse Loren <time datetime="2016-08-15" pubdate>August 15,&nbsp;2016</time>
 - item: Updated <time datetime="2017-04-18" pubdate>April 18,&nbsp;2017</time>
+- item: Updated with thanks to Danielle Barnes <time datetime="2017-07-30" pubdate>July 30,&nbsp;2017</time>
 - item: Want to suggest a new site or resource? Need to reach me? <a href="https://gitreports.com/issue/vitorio/austinux.org">Fill out this form</a>
 ---
 <header>
@@ -24,7 +25,7 @@ changelog:
 
 <span class="highlight">New to the Austin design community?</span> [Watch this video](https://www.youtube.com/watch?v=Q_0J8K--9XI) and [read these slides](http://vi.to/intro-austin-design-jun-2015) from our June 2015 talk, and <a class="twitter-follow-button" href="https://twitter.com/AustinUX" data-show-count="false">follow @AustinUX</a> on Twitter for occasional retweets.
 
-Here's a curated list of active, UX- and design-related organizations and meetups in Austin, as of April 2017:
+Here's a curated list of active, UX- and design-related organizations and meetups in Austin, as of July 2017:
 
 - [IxDA Austin](http://ixdaaustin.ning.com/)
 - [Austin UXPA](http://www.meetup.com/Austin-User-Experience-Professionals-Association/)
@@ -54,6 +55,7 @@ Here's a curated list of active, UX- and design-related organizations and meetup
 - [General Assembly](https://generalassemb.ly/education)
 - [Austin Center for Design](http://www.ac4d.com)
 - [Austin Community College](http://sites.austincc.edu/viscom/)
+- [Austin Design Week](http://austindesignweek.org) (November 6-10, 2017)
 
 There are lots more design- and art-related meetups in Austin! But, those are particularly relevant to UX.
 
