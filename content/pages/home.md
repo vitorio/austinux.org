@@ -68,6 +68,7 @@ If you're interested in local, online hangouts, you might also be interested in:
 - [Design Community Twitter Hours (#dcth) Slack](https://dcth.slack.com) (message Cecy Correa [on Twitter](https://twitter.com/cecycorrea) for access)
 - [fresh2design Slack](https://docs.google.com/forms/d/e/1FAIpQLSfrEIQE_0Ta-Uy_nsax4CXNlZUPnGWcCtvgLeclOqQ1X7wYQg/viewform?c=0&w=1)
 - [AIGA Austin Slack](https://aiga-austin-slack.herokuapp.com)
+- [UX Design Community Slack](http://slack.uxdesigncommunity.com) #city-austin channel
 
 Then-UXPA president Cory Lebson wrote a nice article about Austin UX for UX Magazine, [The Hidden Value of UX Connectors and the Future of Our Community](http://uxmag.com/articles/the-hidden-value-of-ux-connectors-and-the-future-of-our-community).
 
