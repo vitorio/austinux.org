@@ -14,6 +14,7 @@ changelog:
 - item: Updated with thanks to Jesse Loren <time datetime="2016-08-15" pubdate>August 15,&nbsp;2016</time>
 - item: Updated <time datetime="2017-04-18" pubdate>April 18,&nbsp;2017</time>
 - item: Updated with thanks to Danielle Barnes <time datetime="2017-07-30" pubdate>July 30,&nbsp;2017</time>
+- item: Updated <time datetime="2017-10-21" pubdate>October 21,&nbsp;2017</time>
 - item: Want to suggest a new site or resource? Need to reach me? <a href="https://gitreports.com/issue/vitorio/austinux.org">Fill out this form</a>
 ---
 <header>
