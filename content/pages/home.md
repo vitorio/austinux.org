@@ -15,6 +15,7 @@ changelog:
 - item: Updated <time datetime="2017-04-18" pubdate>April 18,&nbsp;2017</time>
 - item: Updated with thanks to Danielle Barnes <time datetime="2017-07-30" pubdate>July 30,&nbsp;2017</time>
 - item: Updated <time datetime="2017-10-21" pubdate>October 21,&nbsp;2017</time>
+- item: Updated <time datetime="2018-05-22" pubdate>May 22,&nbsp;2018</time>
 - item: Want to suggest a new site or resource? Need to reach me? <a href="https://gitreports.com/issue/vitorio/austinux.org">Fill out this form</a>
 ---
 <header>
@@ -56,7 +57,8 @@ Here's a curated list of active, UX- and design-related organizations and meetup
 - [General Assembly](https://generalassemb.ly/education)
 - [Austin Center for Design](http://www.ac4d.com)
 - [Austin Community College](http://sites.austincc.edu/viscom/)
-- [Austin Design Week](http://austindesignweek.org) (November 6-10, 2017)
+- [Austin Design Week](http://austindesignweek.org) (November 5-9, 2018)
+- [Interaction Design Foundation Austin](https://www.interaction-design.org/local-group/north-america/united-states/austin)
 
 There are lots more design- and art-related meetups in Austin! But, those are particularly relevant to UX.
 
@@ -67,7 +69,7 @@ If you're interested in local, online hangouts, you might also be interested in:
 - [Refresh Austin Slack](http://slack.refreshaustin.org) #design-talk channel
 - [UX Book Club ATX Slack](https://uxbookclubatx.herokuapp.com)
 - [Design Community Twitter Hours (#dcth) Slack](https://dcth.slack.com) (message Cecy Correa [on Twitter](https://twitter.com/cecycorrea) for access)
-- [fresh2design Slack](https://docs.google.com/forms/d/e/1FAIpQLSfrEIQE_0Ta-Uy_nsax4CXNlZUPnGWcCtvgLeclOqQ1X7wYQg/viewform?c=0&w=1)
+- [fresh2design Slack](https://f2d-automate.herokuapp.com/)
 - [AIGA Austin Slack](https://aiga-austin-slack.herokuapp.com)
 - [UX Design Community Slack](http://slack.uxdesigncommunity.com) #city-austin channel
 
