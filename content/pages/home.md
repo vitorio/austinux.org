@@ -16,6 +16,7 @@ changelog:
 - item: Updated with thanks to Danielle Barnes <time datetime="2017-07-30" pubdate>July 30,&nbsp;2017</time>
 - item: Updated <time datetime="2017-10-21" pubdate>October 21,&nbsp;2017</time>
 - item: Updated <time datetime="2018-05-22" pubdate>May 22,&nbsp;2018</time>
+- item: Updated <time datetime="2020-04-11" pubdate>April 11,&nbsp;2020</time>
 - item: Want to suggest a new site or resource? Need to reach me? <a href="https://gitreports.com/issue/vitorio/austinux.org">Fill out this form</a>
 ---
 <header>
@@ -25,42 +26,48 @@ changelog:
 </hgroup>
 </header>
 
-<span class="highlight">New to the Austin design community?</span> [Watch this video](https://www.youtube.com/watch?v=Q_0J8K--9XI) and [read these slides](http://vi.to/intro-austin-design-jun-2015) from our June 2015 talk, and <a class="twitter-follow-button" href="https://twitter.com/AustinUX" data-show-count="false">follow @AustinUX</a> on Twitter for occasional retweets.
+🆕 New to the Austin design community?
 
-Here's a curated list of active, UX- and design-related organizations and meetups in Austin, as of July 2017:
+- [Subscribe to the mailing list](http://eepurl.com/gZzMJ5) for weekly event reminder emails.
+- <a class="twitter-follow-button" href="https://twitter.com/AustinUX" data-show-count="false">follow @AustinUX</a> on Twitter for retweets from your local peers.
+- [Watch this video](https://www.youtube.com/watch?v=Q_0J8K--9XI) and [read these slides](http://s3.amazonaws.com/vitorio/IntroAustinDesign20150623.pdf) from our June 2015 talk.
 
-- [IxDA Austin](http://ixdaaustin.ning.com/)
-- [Austin UXPA](http://www.meetup.com/Austin-User-Experience-Professionals-Association/)
+😷 <span class="highlight">A gentle reminder that it's April 2020 and we're in the middle of a global pandemic.  Stay home if you can.  Wash your hands.  Practice social distancing.</span>
+
+👇 Here's a curated list of active, UX- and design-related organizations and meetups in Austin, as of April 2020:
+
+- [Austin Accessibility and Inclusive Design](https://www.meetup.com/a11yATX/)
+- [Control the Room](https://www.meetup.com/Control-The-Room/) (formerly Austin Design Sprint)
+- [PRODDUCT Austin](https://www.meetup.com/PRODDUCT-Austin/)
+- [Austin Design Jam](https://www.meetup.com/Austin-Design-Jam/)
+- [Public Design Lab](https://www.meetup.com/Austin-User-Experience-Designers/) (formerly Austin User Experience Designers)
+- [UX for the People](https://www.meetup.com/UX-for-the-People/)
+- [IDF Austin](https://www.interaction-design.org/local-group/north-america/united-states/austin) (Interaction Design Foundation)
+- [Austin UXPA](http://www.meetup.com/Austin-User-Experience-Professionals-Association/) (User Experience Professionals Association)
 - [AIGA Austin](http://austin.aiga.org)
-- [STC Austin](http://www.stcaustin.org)
+- [STC South Central Texas](https://stc-socentx.org) (Society for Technical Communication)
 - [Austin Design and Visual Arts Network](http://www.meetup.com/ADVAnet/)
-- [Refresh Austin](http://www.refreshaustin.org)
 - [#AustinContent Meetup](http://www.meetup.com/Austin-Content/)
-- [ATXDribbble Meetup](https://twitter.com/atxdribbble)
-- [Lean User Experience Austin](http://www.meetup.com/luxatx/)
+- [Dribbble](https://dribbble.com/places/austin/meetups)
 - [CreativeMornings/Austin](https://creativemornings.com/cities/atx)
-- [UX Book Club: Austin](https://www.facebook.com/groups/43317710317/) (now meeting as part of UXPA)
-- [Enterprise UX Austin](http://www.meetup.com/Enterprise-UX-Austin/)
-- [Austin Initiative for Graphic Awesomeness](http://www.austininitiativeforgraphicawesomeness.com)
 - [Austin UX Researchers](https://www.facebook.com/groups/740578259350169/)
-- [fresh2design](http://fresh2design.com)
-- [Speculative Futures](http://www.meetup.com/ATX-Speculative-Futures/)
+- [fresh2design](https://www.meetup.com/fresh2design/)
+- [Speculative Futures Austin](http://www.meetup.com/ATX-Speculative-Futures/)
 - [Service Design, ATX](http://www.meetup.com/Service-Design-ATX/)
 - [Open Austin](http://www.meetup.com/Open-Austin/)
 - [Action Design ATX](http://www.meetup.com/action_design_ATX/)
-- [Wearable Tech ATX](http://www.meetup.com/Wearable-Tech-ATX/)
 - [Hacks/Hackers Austin](http://www.meetup.com/Hacks-Hackers-Austin/)
 - [Austin UX/UI/Visual Designers](https://www.facebook.com/groups/408757622519801)
-- [School of Information](https://www.ischool.utexas.edu/about/calendars)
+- [Flatiron School](https://www.meetup.com/Flatiron-School-Austin-Coding-Community/)
+- [School of Information](https://www.ischool.utexas.edu/about/news-events)
 - [Department of Art and Art History](http://art.utexas.edu/calendar)
-- [Visual Arts Center](http://utvac.org/programs/calendar)
+- [Visual Arts Center](https://utvac.org/events)
 - [General Assembly](https://generalassemb.ly/education)
 - [Austin Center for Design](http://www.ac4d.com)
 - [Austin Community College](http://sites.austincc.edu/viscom/)
-- [Austin Design Week](http://austindesignweek.org) (November 5-9, 2018)
-- [Interaction Design Foundation Austin](https://www.interaction-design.org/local-group/north-america/united-states/austin)
+- [Austin Design Week](http://austindesignweek.org) (November 9-13, 2020)
 
-There are lots more design- and art-related meetups in Austin! But, those are particularly relevant to UX.
+There are lots more design- and art-related and tool-specific meetups in Austin! But, the above are broadly relevant to UX.
 
 If you're interested in local, online hangouts, you might also be interested in:
 
@@ -71,10 +78,10 @@ If you're interested in local, online hangouts, you might also be interested in:
 - [Design Community Twitter Hours (#dcth) Slack](https://dcth.slack.com) (message Cecy Correa [on Twitter](https://twitter.com/cecycorrea) for access)
 - [fresh2design Slack](https://f2d-automate.herokuapp.com/)
 - [AIGA Austin Slack](https://aiga-austin-slack.herokuapp.com)
-- [UX Design Community Slack](http://slack.uxdesigncommunity.com) #city-austin channel
+- [Dribbble](https://dribbble.com/places/austin)
 
 Then-UXPA president Cory Lebson wrote a nice article about Austin UX for UX Magazine, [The Hidden Value of UX Connectors and the Future of Our Community](http://uxmag.com/articles/the-hidden-value-of-ux-connectors-and-the-future-of-our-community).
 
 The story of Austin UX, some history of the Austin design community, and a call to design better meetups, can be found in the essay [Local Communities In Practice and By Design](http://vitor.io/local-communities-in-practice-and-by-design).
 
-<span class="highlight">The curated UX events calendar is on hiatus</span>, but if you'd like to receive weekly reminder emails when it starts back up, you should <span class="highlight">[subscribe to the mailing list](http://eepurl.com/bwa_Gr)</span>.
+One of the groups studied in that essay, IxDA Austin, ran from March 2009 to August 2018.  If you're looking for a classic event, the [Wayback Machine](https://web.archive.org/web/20180729112933/http://ixdaaustin.ning.com/) should have captures of all that historic design community content, and I have a WARC if anyone is looking to do analysis.  Get in touch!
