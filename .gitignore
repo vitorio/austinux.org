@@ -4,3 +4,7 @@ build
 node_modules
 bower_components
 **.mo
+.grow/
+.venv/
+Pipfile
+Pipfile.lock
