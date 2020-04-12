@@ -71,7 +71,7 @@ changelog:
 
 There are lots more design- and art-related and tool-specific meetups in Austin! But, the above are broadly relevant to UX.
 
-While many of the above meetups are hosting virtual events right now, some other, dedicated, local, online spaces are:
+🔗 While many of the above meetups are hosting virtual events right now, some other, dedicated, local, online spaces are:
 
 - [Austin UX LinkedIn group](https://www.linkedin.com/groups/1224467) (run by Craig Moser)
 - [Designer Hangout Slack](https://www.designerhangout.co) #local_austin channel
@@ -82,8 +82,15 @@ While many of the above meetups are hosting virtual events right now, some other
 - [AIGA Austin Slack](https://aiga-austin-slack.herokuapp.com)
 - [Dribbble](https://dribbble.com/places/austin)
 
-Then-UXPA president Cory Lebson wrote a nice article about Austin UX for UX Magazine, [The Hidden Value of UX Connectors and the Future of Our Community](http://uxmag.com/articles/the-hidden-value-of-ux-connectors-and-the-future-of-our-community).
+📕 Then-UXPA president Cory Lebson wrote a nice article about Austin UX for UX Magazine, [The Hidden Value of UX Connectors and the Future of Our Community](http://uxmag.com/articles/the-hidden-value-of-ux-connectors-and-the-future-of-our-community).
 
-The story of Austin UX, some history of the Austin design community, and a call to design better meetups, can be found in the essay [Local Communities In Practice and By Design](http://vitor.io/local-communities-in-practice-and-by-design).
+📙 The story of Austin UX, some history of the Austin design community, and a call to design better meetups, can be found in the essay [Local Communities In Practice and By Design](http://vitor.io/local-communities-in-practice-and-by-design).
 
-One of the groups studied in that essay, IxDA Austin, ran from March 2009 to August 2018.  If you're looking for a classic event, the [Wayback Machine](https://web.archive.org/web/20180729112933/http://ixdaaustin.ning.com/) should have captures of all that historic design community content, and I have a WARC if anyone is looking to do analysis.  Get in touch!
+🏛 One of the groups studied in that essay, IxDA Austin, ran from March 2009 to August 2018.  If you're looking for a classic event, the [Wayback Machine](https://web.archive.org/web/20180729112933/http://ixdaaustin.ning.com/) should have captures of all that historic design community content, and I have a WARC if anyone is looking to do analysis.  Get in touch!
+
+🔎 Looking for a similar site in another city?
+
+- [Atlanta](https://tech404.io)
+- [Dallas/Fort Worth](https://uxdfw.org)
+- [Portland](http://pdxhcd.org)
+- [Seattle](https://www.uxseattle.org)
