@@ -36,6 +36,7 @@ changelog:
 
 👇 Here's a curated list of active, UX- and design-related organizations and meetups in Austin, as of April 2020:
 
+- [UX in ATX](https://www.meetup.com/UX-in-ATX-Meetup-Group/)
 - [Black UX Austin](https://www.meetup.com/Black-UX-Austin/)
 - [Ladies, Wine and Design Austin](https://ladieswinedesign.com/austin/)
 - [Austin Accessibility and Inclusive Design](https://www.meetup.com/a11yATX/)
@@ -73,6 +74,7 @@ There are lots more design- and art-related and tool-specific meetups in Austin!
 
 🔗 While many of the above meetups are hosting virtual events right now, some other, dedicated, local, online spaces are:
 
+- [UX in ATX Slack](https://join.slack.com/t/uxinatx/shared_invite/enQtODkwMjc5MjY5NjY2LWEzN2ZlMTU2NGJmN2JhZDFmODE1NWVlZWUxZGVhN2RjOWMxNjczODJhZWQyZWM3OGQ1MTJlYWQ0MjVkODBlNWY)
 - [Austin UX LinkedIn group](https://www.linkedin.com/groups/1224467) (run by Craig Moser)
 - [Designer Hangout Slack](https://www.designerhangout.co) #local_austin channel
 - [Refresh Austin Slack](http://slack.refreshaustin.org) #design-talk channel
