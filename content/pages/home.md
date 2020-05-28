@@ -17,6 +17,7 @@ changelog:
 - item: Updated <time datetime="2017-10-21" pubdate>October 21,&nbsp;2017</time>
 - item: Updated <time datetime="2018-05-22" pubdate>May 22,&nbsp;2018</time>
 - item: Updated <time datetime="2020-04-11" pubdate>April 11,&nbsp;2020</time>
+- item: Updated <time datetime="2020-05-28" pubdate>May 28,&nbsp;2020</time>
 - item: Want to suggest a new site or resource? Need to reach me? <a href="https://gitreports.com/issue/vitorio/austinux.org">Fill out this form</a>
 ---
 <header>
@@ -74,6 +75,7 @@ There are lots more design- and art-related and tool-specific meetups in Austin!
 
 🔗 While many of the above meetups are hosting virtual events right now, some other, dedicated, local, online spaces are:
 
+- [Black UX Austin Slack](https://forms.gle/5f1JCb1SUZA36TqUA)
 - [UX in ATX Slack](https://join.slack.com/t/uxinatx/shared_invite/enQtODkwMjc5MjY5NjY2LWEzN2ZlMTU2NGJmN2JhZDFmODE1NWVlZWUxZGVhN2RjOWMxNjczODJhZWQyZWM3OGQ1MTJlYWQ0MjVkODBlNWY)
 - [Austin UX LinkedIn group](https://www.linkedin.com/groups/1224467) (run by Craig Moser)
 - [Designer Hangout Slack](https://www.designerhangout.co) #local_austin channel
