@@ -18,6 +18,7 @@ changelog:
 - item: Updated <time datetime="2018-05-22" pubdate>May 22,&nbsp;2018</time>
 - item: Updated <time datetime="2020-04-11" pubdate>April 11,&nbsp;2020</time>
 - item: Updated <time datetime="2020-05-28" pubdate>May 28,&nbsp;2020</time>
+- item: Updated <time datetime="2020-06-01" pubdate>June 1,&nbsp;2020</time>
 - item: Want to suggest a new site or resource? Need to reach me? <a href="https://gitreports.com/issue/vitorio/austinux.org">Fill out this form</a>
 ---
 <header>
@@ -33,7 +34,9 @@ changelog:
 - <a class="twitter-follow-button" href="https://twitter.com/AustinUX" data-show-count="false">follow @AustinUX</a> on Twitter for retweets from your local peers.
 - [Watch this video](https://www.youtube.com/watch?v=Q_0J8K--9XI) and [read these slides](http://s3.amazonaws.com/vitorio/IntroAustinDesign20150623.pdf) from our June 2015 talk.
 
-😷 <span class="highlight">A gentle reminder that it's April 2020 and we're in the middle of a global pandemic.  Stay home if you can.  Wash your hands.  Practice social distancing.</span>
+😷 <span class="highlight">It's June 2020 and we're still in the middle of a global pandemic.  Wear a mask.  Practice social distancing.  Wash your hands.  Stay home if you can.</span>
+
+✊🏿 <span class="inverse">Black lives matter.  [Protest safely, donate, and volunteer.](http://www.blmg.org)  [Support local, black-owned businesses.](https://www.austinmonthly.com/black-owned-businesses-to-support-in-austin/)  All design is a political act.</span>
 
 👇 Here's a curated list of active, UX- and design-related organizations and meetups in Austin, as of April 2020:
 
