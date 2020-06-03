@@ -23,13 +23,13 @@
     }
     
     .highlight { background-color: #ffff99; }
-    footer.markdown-body { background-color: #fafbfc; text-align: right; color: #444d56; font-size: 85%; }
-    footer.markdown-body a { color: #24292e; }
+    footer.markdown-body { text-align: right; font-size: 85%; }
     footer.markdown-body ol { margin-left: 0; }
     footer.markdown-body ol li { list-style: none; }
     #twitter-widget-0 { vertical-align: middle; }
-    .inverse { background-color: #24292e; color: #fafbfc; }
-    .inverse a { color: #88b7ff; }
+    .inverse, footer.markdown-body { background-color: #24292e; color: #fafbfc; }
+    .inverse a, footer.markdown-body a { color: #88b7ff; }
+    .bleed { margin: 0 -8px -8px -8px; }
 </style>
 </head>
 <body>
@@ -38,6 +38,7 @@
 {{doc.html|render|safe}}
 </article>
 
+<div class="inverse bleed">
 <footer class="markdown-body">
 <ol reversed>
 {% for i in doc.changelog|reverse %}
@@ -45,6 +46,7 @@
 {% endfor %}
 </ol>
 </footer>
+</div>
 
 <script>window.twttr = (function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0],
