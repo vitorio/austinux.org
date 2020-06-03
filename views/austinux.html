@@ -29,7 +29,7 @@
     #twitter-widget-0 { vertical-align: middle; }
     .inverse, footer.markdown-body { background-color: #24292e; color: #fafbfc; }
     .inverse a, footer.markdown-body a { color: #88b7ff; }
-    .bleed { margin: 0 -8px -8px -8px; }
+    body { margin: 0; }
 </style>
 </head>
 <body>
@@ -38,7 +38,7 @@
 {{doc.html|render|safe}}
 </article>
 
-<div class="inverse bleed">
+<div class="inverse">
 <footer class="markdown-body">
 <ol reversed>
 {% for i in doc.changelog|reverse %}
