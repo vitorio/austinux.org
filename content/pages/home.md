@@ -36,7 +36,7 @@ changelog:
 
 😷 <span class="highlight">It's June 2020 and we're still in the middle of a global pandemic.  Wear a mask.  Practice social distancing.  Wash your hands.  Stay home if you can.</span>
 
-✊🏿 <span class="inverse">Black lives matter.  [Protest safely, donate, and volunteer.](http://blmg.org)  [Support local, black-owned businesses.](https://www.austinmonthly.com/black-owned-businesses-to-support-in-austin/)  All design is a political act.</span>
+✊🏿 <span class="inverse">Black lives matter.  [Protest safely, donate, and volunteer.](http://blmg.org)  [Support local, Black-owned businesses.](https://www.austinmonthly.com/black-owned-businesses-to-support-in-austin/)  All design is a political act.</span>
 
 👇 Here's a curated list of active, UX- and design-related organizations and meetups in Austin, as of April 2020:
 
